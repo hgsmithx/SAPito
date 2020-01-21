@@ -1,0 +1,127 @@
+C:\Users\wendo\source\repos\Diseño2.1\obj\Debug\Diseño2.1.vbprojAssemblyReference.cache
+C:\Users\wendo\source\repos\Diseño2.1\obj\Debug\Diseño2._1.Resources.resources
+C:\Users\wendo\source\repos\Diseño2.1\obj\Debug\Diseño2.1.vbproj.GenerateResource.cache
+C:\Users\wendo\source\repos\Diseño2.1\bin\Debug\Diseño2.1.exe.config
+C:\Users\wendo\source\repos\Diseño2.1\bin\Debug\Diseño2.1.exe
+C:\Users\wendo\source\repos\Diseño2.1\bin\Debug\Diseño2.1.pdb
+C:\Users\wendo\source\repos\Diseño2.1\bin\Debug\Diseño2.1.xml
+C:\Users\wendo\source\repos\Diseño2.1\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\wendo\source\repos\Diseño2.1\obj\Debug\Diseño2.1.vbproj.CopyComplete
+C:\Users\wendo\source\repos\Diseño2.1\obj\Debug\Diseño2.1.exe
+C:\Users\wendo\source\repos\Diseño2.1\obj\Debug\Diseño2.1.xml
+C:\Users\wendo\source\repos\Diseño2.1\obj\Debug\Diseño2.1.pdb
+C:\Users\wendo\source\repos\Diseño2.1\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\wendo\source\repos\Diseño2.1\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\wendo\source\repos\Diseño2.1\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Users\wendo\source\repos\Diseño2.1\obj\Debug\Diseño2.1.vbproj.ResolveComReference.cache
+C:\Users\wendo\source\repos\Diseño2.1\obj\Debug\Diseño2._1.Login.resources
+C:\Users\wendo\source\repos\Diseño2.1\obj\Debug\Diseño2._1.MantenedorUsuarios.resources
+C:\Users\wendo\source\repos\Diseño2.1\obj\Debug\Diseño2._1.MenúPrincipal.resources
+C:\Users\wendo\source\repos\Diseño2.1\obj\Debug\Diseño2._1.Formularios.resources
+C:\Users\wendo\source\repos\Diseño2.1\obj\Debug\Diseño2._1.VentanaSQL.resources
+C:\Users\wendo\source\repos\Diseño2.1\obj\Debug\Diseño2._1.VentanaSAP.resources
+C:\Users\Hugo\source\repos\Diseño2.1\bin\Debug\Diseño2.1.exe.config
+C:\Users\Hugo\source\repos\Diseño2.1\bin\Debug\Diseño2.1.exe
+C:\Users\Hugo\source\repos\Diseño2.1\bin\Debug\Diseño2.1.pdb
+C:\Users\Hugo\source\repos\Diseño2.1\bin\Debug\Diseño2.1.xml
+C:\Users\Hugo\source\repos\Diseño2.1\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Hugo\source\repos\Diseño2.1\obj\Debug\Diseño2.1.vbprojAssemblyReference.cache
+C:\Users\Hugo\source\repos\Diseño2.1\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\Hugo\source\repos\Diseño2.1\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Users\Hugo\source\repos\Diseño2.1\obj\Debug\Diseño2.1.vbproj.ResolveComReference.cache
+C:\Users\Hugo\source\repos\Diseño2.1\obj\Debug\Diseño2._1.Formularios.resources
+C:\Users\Hugo\source\repos\Diseño2.1\obj\Debug\Diseño2._1.Login.resources
+C:\Users\Hugo\source\repos\Diseño2.1\obj\Debug\Diseño2._1.MantenedorUsuarios.resources
+C:\Users\Hugo\source\repos\Diseño2.1\obj\Debug\Diseño2._1.MenúPrincipal.resources
+C:\Users\Hugo\source\repos\Diseño2.1\obj\Debug\Diseño2._1.Resources.resources
+C:\Users\Hugo\source\repos\Diseño2.1\obj\Debug\Diseño2._1.VentanaSAP.resources
+C:\Users\Hugo\source\repos\Diseño2.1\obj\Debug\Diseño2._1.VentanaSQL.resources
+C:\Users\Hugo\source\repos\Diseño2.1\obj\Debug\Diseño2.1.vbproj.GenerateResource.cache
+C:\Users\Hugo\source\repos\Diseño2.1\obj\Debug\Diseño2.1.vbproj.CopyComplete
+C:\Users\Hugo\source\repos\Diseño2.1\obj\Debug\Diseño2.1.exe
+C:\Users\Hugo\source\repos\Diseño2.1\obj\Debug\Diseño2.1.xml
+C:\Users\Hugo\source\repos\Diseño2.1\obj\Debug\Diseño2.1.pdb
+C:\Users\wendo\Desktop\Diseño2.1\bin\Debug\Diseño2.1.exe.config
+C:\Users\wendo\Desktop\Diseño2.1\bin\Debug\Diseño2.1.exe
+C:\Users\wendo\Desktop\Diseño2.1\bin\Debug\Diseño2.1.pdb
+C:\Users\wendo\Desktop\Diseño2.1\bin\Debug\Diseño2.1.xml
+C:\Users\wendo\Desktop\Diseño2.1\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\wendo\Desktop\Diseño2.1\obj\Debug\Diseño2.1.vbprojAssemblyReference.cache
+C:\Users\wendo\Desktop\Diseño2.1\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\wendo\Desktop\Diseño2.1\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Users\wendo\Desktop\Diseño2.1\obj\Debug\Diseño2.1.vbproj.ResolveComReference.cache
+C:\Users\wendo\Desktop\Diseño2.1\obj\Debug\Diseño2._1.Formularios.resources
+C:\Users\wendo\Desktop\Diseño2.1\obj\Debug\Diseño2._1.Login.resources
+C:\Users\wendo\Desktop\Diseño2.1\obj\Debug\Diseño2._1.MantenedorUsuarios.resources
+C:\Users\wendo\Desktop\Diseño2.1\obj\Debug\Diseño2._1.MenúPrincipal.resources
+C:\Users\wendo\Desktop\Diseño2.1\obj\Debug\Diseño2._1.Resources.resources
+C:\Users\wendo\Desktop\Diseño2.1\obj\Debug\Diseño2._1.VentanaSAP.resources
+C:\Users\wendo\Desktop\Diseño2.1\obj\Debug\Diseño2._1.VentanaSQL.resources
+C:\Users\wendo\Desktop\Diseño2.1\obj\Debug\Diseño2.1.vbproj.GenerateResource.cache
+C:\Users\wendo\Desktop\Diseño2.1\obj\Debug\Diseño2.1.vbproj.CopyComplete
+C:\Users\wendo\Desktop\Diseño2.1\obj\Debug\Diseño2.1.exe
+C:\Users\wendo\Desktop\Diseño2.1\obj\Debug\Diseño2.1.xml
+C:\Users\wendo\Desktop\Diseño2.1\obj\Debug\Diseño2.1.pdb
+C:\Users\Hugo\Desktop\Proyecto SAPitov.2.0\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2.1.vbprojAssemblyReference.cache
+C:\Users\Hugo\Desktop\Proyecto SAPitov.2.0\Diseño_20-01\Diseño2.1\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\Hugo\Desktop\Proyecto SAPitov.2.0\Diseño_20-01\Diseño2.1\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Users\Hugo\Desktop\Proyecto SAPitov.2.0\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2.1.vbproj.ResolveComReference.cache
+C:\Users\Hugo\Desktop\Proyecto SAPitov.2.0\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2._1.Formularios.resources
+C:\Users\Hugo\Desktop\Proyecto SAPitov.2.0\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2._1.Login.resources
+C:\Users\Hugo\Desktop\Proyecto SAPitov.2.0\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2._1.MantenedorUsuarios.resources
+C:\Users\Hugo\Desktop\Proyecto SAPitov.2.0\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2._1.MenúPrincipal.resources
+C:\Users\Hugo\Desktop\Proyecto SAPitov.2.0\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2._1.Resources.resources
+C:\Users\Hugo\Desktop\Proyecto SAPitov.2.0\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2._1.VentanaSAP.resources
+C:\Users\Hugo\Desktop\Proyecto SAPitov.2.0\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2._1.VentanaSQL.resources
+C:\Users\Hugo\Desktop\Proyecto SAPitov.2.0\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2.1.vbproj.GenerateResource.cache
+C:\Users\Hugo\Desktop\Proyecto SAPitov.2.0\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2.1.exe
+C:\Users\Hugo\Desktop\Proyecto SAPitov.2.0\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2.1.xml
+C:\Users\Hugo\Desktop\Proyecto SAPitov.2.0\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2.1.pdb
+C:\Users\Hugo\Desktop\Proyecto SAPitov.2.0\Diseño_20-01\Diseño2.1\bin\Debug\Diseño2.1.exe.config
+C:\Users\Hugo\Desktop\Proyecto SAPitov.2.0\Diseño_20-01\Diseño2.1\bin\Debug\Diseño2.1.exe
+C:\Users\Hugo\Desktop\Proyecto SAPitov.2.0\Diseño_20-01\Diseño2.1\bin\Debug\Diseño2.1.pdb
+C:\Users\Hugo\Desktop\Proyecto SAPitov.2.0\Diseño_20-01\Diseño2.1\bin\Debug\Diseño2.1.xml
+C:\Users\Hugo\Desktop\Proyecto SAPitov.2.0\Diseño_20-01\Diseño2.1\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Hugo\Desktop\Proyecto SAPitov.2.0\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2.1.vbproj.CopyComplete
+C:\Users\wendo\source\repos\Ultimo funcionando 20-01\Diseño_20-01\Diseño2.1\bin\Debug\Diseño2.1.exe.config
+C:\Users\wendo\source\repos\Ultimo funcionando 20-01\Diseño_20-01\Diseño2.1\bin\Debug\Diseño2.1.exe
+C:\Users\wendo\source\repos\Ultimo funcionando 20-01\Diseño_20-01\Diseño2.1\bin\Debug\Diseño2.1.pdb
+C:\Users\wendo\source\repos\Ultimo funcionando 20-01\Diseño_20-01\Diseño2.1\bin\Debug\Diseño2.1.xml
+C:\Users\wendo\source\repos\Ultimo funcionando 20-01\Diseño_20-01\Diseño2.1\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\wendo\source\repos\Ultimo funcionando 20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2.1.vbprojAssemblyReference.cache
+C:\Users\wendo\source\repos\Ultimo funcionando 20-01\Diseño_20-01\Diseño2.1\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\wendo\source\repos\Ultimo funcionando 20-01\Diseño_20-01\Diseño2.1\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Users\wendo\source\repos\Ultimo funcionando 20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2.1.vbproj.ResolveComReference.cache
+C:\Users\wendo\source\repos\Ultimo funcionando 20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2._1.Formularios.resources
+C:\Users\wendo\source\repos\Ultimo funcionando 20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2._1.Login.resources
+C:\Users\wendo\source\repos\Ultimo funcionando 20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2._1.MantenedorUsuarios.resources
+C:\Users\wendo\source\repos\Ultimo funcionando 20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2._1.MenúPrincipal.resources
+C:\Users\wendo\source\repos\Ultimo funcionando 20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2._1.Resources.resources
+C:\Users\wendo\source\repos\Ultimo funcionando 20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2._1.VentanaSAP.resources
+C:\Users\wendo\source\repos\Ultimo funcionando 20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2._1.VentanaSQL.resources
+C:\Users\wendo\source\repos\Ultimo funcionando 20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2.1.vbproj.GenerateResource.cache
+C:\Users\wendo\source\repos\Ultimo funcionando 20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2.1.vbproj.CopyComplete
+C:\Users\wendo\source\repos\Ultimo funcionando 20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2.1.exe
+C:\Users\wendo\source\repos\Ultimo funcionando 20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2.1.xml
+C:\Users\wendo\source\repos\Ultimo funcionando 20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2.1.pdb
+C:\Users\Hugo\Desktop\Diseño_20-01\Diseño_20-01\Diseño2.1\bin\Debug\Diseño2.1.exe.config
+C:\Users\Hugo\Desktop\Diseño_20-01\Diseño_20-01\Diseño2.1\bin\Debug\Diseño2.1.exe
+C:\Users\Hugo\Desktop\Diseño_20-01\Diseño_20-01\Diseño2.1\bin\Debug\Diseño2.1.pdb
+C:\Users\Hugo\Desktop\Diseño_20-01\Diseño_20-01\Diseño2.1\bin\Debug\Diseño2.1.xml
+C:\Users\Hugo\Desktop\Diseño_20-01\Diseño_20-01\Diseño2.1\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Hugo\Desktop\Diseño_20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2.1.vbprojAssemblyReference.cache
+C:\Users\Hugo\Desktop\Diseño_20-01\Diseño_20-01\Diseño2.1\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\Hugo\Desktop\Diseño_20-01\Diseño_20-01\Diseño2.1\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Users\Hugo\Desktop\Diseño_20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2.1.vbproj.ResolveComReference.cache
+C:\Users\Hugo\Desktop\Diseño_20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2._1.Formularios.resources
+C:\Users\Hugo\Desktop\Diseño_20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2._1.Login.resources
+C:\Users\Hugo\Desktop\Diseño_20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2._1.MantenedorUsuarios.resources
+C:\Users\Hugo\Desktop\Diseño_20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2._1.MenúPrincipal.resources
+C:\Users\Hugo\Desktop\Diseño_20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2._1.Resources.resources
+C:\Users\Hugo\Desktop\Diseño_20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2._1.VentanaSAP.resources
+C:\Users\Hugo\Desktop\Diseño_20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2._1.VentanaSQL.resources
+C:\Users\Hugo\Desktop\Diseño_20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2.1.vbproj.GenerateResource.cache
+C:\Users\Hugo\Desktop\Diseño_20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2.1.vbproj.CopyComplete
+C:\Users\Hugo\Desktop\Diseño_20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2.1.exe
+C:\Users\Hugo\Desktop\Diseño_20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2.1.xml
+C:\Users\Hugo\Desktop\Diseño_20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2.1.pdb
