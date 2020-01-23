@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.Diseño2._1.Formularios
+            Me.MainForm = Global.Diseño2._1.VentanaSQL
         End Sub
     End Class
 End Namespace

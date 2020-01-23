@@ -27,31 +27,10 @@ Public Class MantenedorUsuarios
             grilla.Columns(0).ReadOnly = True 'Para no editar el id
             conexion.Close()
         Catch ex As Exception
-            MsgBox("todo mal")
+            MsgBox("Se ha perdido la conexion")
             conexion.Close()
         End Try
-        ''Apenas se carga la ventana , se cargan los datos de la bd'
-        'cadena = tipoconexion.EscogeConexion
-        'Dim conexion As New SqlConnection(cadena)
 
-        'sql = "SELECT idUsuario As 'Id de usuario',Nombre ,Password As 'Contraseña' FROM Usuarios"
-        'Dim da As New SqlDataAdapter(sql, conexion) 'adaptador arreglo, que permite hacer cosas en base de datos y cargarlos a algo'
-        ''Dim tabla As New DataTable                  'maneja los datos del select'
-
-        'Try
-        '    conexion.Open()
-        '    da.Fill(tabla)                                    'Fill:actualiza filas'
-        '    grilla.DataSource = tabla                    'hasta aqui se obtiene la grilla'
-        '    'buni_grilla.Columns(0).Width = 80                 'tamaño de una celda
-        '    grilla.Columns(0).ReadOnly = True           'Esa celda no sea editable'
-
-        '    'lbl_mensaje.Text = tabla.Rows.Count.ToString     'cuantas columnas rescató de la base de datos
-        '    'btn_buniBuscar.Enabled = True                    'una vez que me cargue va a permitir el boton '
-
-        'Catch ex As Exception
-        '    MsgBox(ex.Message.ToString)
-        '    conexion.Close()
-        'End Try
     End Sub
 
 
@@ -66,32 +45,34 @@ Public Class MantenedorUsuarios
         Else
             Using conexion
                 conexion.Open()
-                Dim sql2 As String = "INSERT Usuarios (idUsuario,Nombre,Password) values (@idusuario,@password,@nombre)"
 
+                If verificarRegistro(txtbuni_ID.Text) = False Then
+                    Dim sql2 As String = "INSERT Usuarios (idUsuario,Nombre,Password) values (@idusuario,@password,@nombre)"
+                    Try
+                        'For Each fila As DataGridViewRow In grilla.Rows ' variable fila recorre hasta que se acaben las columnas
+                        Dim comando2 As New SqlCommand(sql2, conexion)
+                        'para crear un parametro y cargarle un valor
+                        comando2.Parameters.Add("@idusuario", SqlDbType.NChar).Value = txtbuni_ID.Text
+                        comando2.Parameters.Add("@password", SqlDbType.NChar).Value = txtbuni_Contraseña.Text
+                        comando2.Parameters.Add("@nombre", SqlDbType.NChar).Value = txtbuni_Nombre.Text
+                        comando2.ExecuteNonQuery()
 
-                Try
-                    'For Each fila As DataGridViewRow In grilla.Rows ' variable fila recorre hasta que se acaben las columnas
-                    Dim comando2 As New SqlCommand(sql2, conexion)
-                    'para crear un parametro y cargarle un valor
-                    comando2.Parameters.Add("@idusuario", SqlDbType.NChar).Value = txtbuni_ID.Text
-                    comando2.Parameters.Add("@password", SqlDbType.NChar).Value = txtbuni_Contraseña.Text
-                    comando2.Parameters.Add("@nombre", SqlDbType.NChar).Value = txtbuni_Nombre.Text
-                    comando2.ExecuteNonQuery()
+                        'hacer un update para no enviar los datos nuevamente'
+                        'End Using
 
-                    'hacer un update para no enviar los datos nuevamente'
-                    'End Using
-
-                    MsgBox("DATOS GUARDADOS CORRECTAMENTE")
-                    Dim da As New SqlDataAdapter(sql, conexion)
-                    tabla.Clear()
-                    da.Fill(tabla) ' Carga los datos de la consulta en la tabla
-                    grilla.DataSource = Nothing ' el grid carga la tabla'
-                    grilla.DataSource = tabla
-                Catch ex As Exception
-                    MsgBox(ex.Message.ToString)
-                    conexion.Close()
-                End Try
-
+                        MsgBox("Datos guardados")
+                        Dim da As New SqlDataAdapter(sql, conexion)
+                        tabla.Clear()
+                        da.Fill(tabla) ' Carga los datos de la consulta en la tabla
+                        grilla.DataSource = Nothing ' el grid carga la tabla'
+                        grilla.DataSource = tabla
+                    Catch ex As Exception
+                        MsgBox("Error en el procedimiento ")
+                        conexion.Close()
+                    End Try
+                Else
+                    MsgBox("Este usuario ya está registrado")
+                End If
 
             End Using
         End If
@@ -145,37 +126,13 @@ Public Class MantenedorUsuarios
 
 
                 Next
-                MsgBox("DATOS GUARDADOS CORRECTAMENTE")
+                MsgBox("Datos guardados con exito")
             Catch ex As Exception
-                MsgBox(ex.Message.ToString)
+                MsgBox("Algo ha salido mal, intentalo otra vez o verifica la conexión")
                 conexion.Close()
             End Try
         End Using
-        'Using conexion
-        '    conexion.Open()
-        '    Dim sql2 As String = "UPDATE Usuarios  SET Password=@password, Nombre=@nombre" &
-        '                            " Where idUsuario=@idusuario "
 
-        '    Try
-        '        For Each fila As DataGridViewRow In grilla.Rows ' variable fila recorre hasta que se acaben las columnas
-        '            Using comando2 As New SqlCommand(sql2, conexion)
-        '                'para crear un parametro y cargarle un valor
-        '                comando2.Parameters.AddWithValue("@idusuario", fila.Cells(0).Value) 'idusuario se le asigna la fila 1 columna 0
-        '                comando2.Parameters.AddWithValue("@password", fila.Cells(1).Value)
-        '                comando2.Parameters.AddWithValue("@nombre", fila.Cells(2).Value)
-        '                comando2.ExecuteNonQuery()
-
-        '                'hacer un update para no enviar los datos nuevamente'
-        '            End Using
-
-
-        '        Next
-        '        MsgBox("DATOS GUARDADOS CORRECTAMENTE")
-        '    Catch ex As Exception
-        '        MsgBox(ex.Message.ToString)
-        '        conexion.Close()
-        '    End Try
-        'End Using
 
     End Sub
 
@@ -196,27 +153,6 @@ Public Class MantenedorUsuarios
     End Sub
 
 
-    ''''''''''''''''''''''''''''''''''''
-    ''''consulta que realiza el txt'''''
-    ''''''''''''''''''''''''''''''''''''
-    'Private Sub consulta_dinamica(ByVal nombre As String, ByVal grilla As DataGridView) 'recibe el nombre a buscar y grilla donde muestra
-
-    '    sql = "SELECT * FROM Usuarios WHERE Nombre like '" & "%" + nombre + "%" & "'" 'consulta a tabla cliente filtro por nombre
-
-    '    Dim conexion As New SqlConnection(cadenaSQL)
-    '    Dim da As New SqlDataAdapter(sql, conexion)
-    '    'cadenaSQL = tipoconexion.EscogeConexion()
-    '    Try
-    '        conexion.Open()
-    '        da.Fill(tabla) ''llenado datatable con info de adaptador
-    '        grilla.DataSource = tabla
-
-    '    Catch ex As Exception
-    '        MsgBox(ex.Message.ToString)
-    '        conexion.Close()
-    '    End Try
-    'End Sub
-
     Private Sub txtbuni_buscar_TextChanged(sender As Object, e As EventArgs) Handles txtBuscar.TextChanged
         'consulta_dinamica(txtBuscar.Text, grilla)
         '    cadena = tipoconexion.EscogeConexion
@@ -234,4 +170,24 @@ Public Class MantenedorUsuarios
             cadenaSQL = value
         End Set
     End Property
+
+    Public Function verificarRegistro(ByVal id As String) As Boolean
+        Dim resultado As Boolean = False
+        Dim sql As String
+        Dim conexion As New SqlConnection(cadenaSQL)
+        Dim lector As SqlDataReader
+        Try
+            conexion.Open()
+            sql = "Select * FROM Usuarios where idUsuario='" & id & "'"
+            Dim comando As New SqlCommand(sql, conexion)
+            lector = comando.ExecuteReader()
+            If lector.Read Then
+                resultado = True
+            End If
+            conexion.Close()
+        Catch ex As Exception
+            MsgBox("Error en el procedimiento")
+        End Try
+        Return resultado
+    End Function
 End Class

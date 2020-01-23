@@ -47,7 +47,7 @@ Public Class Login
 
 
         Catch ex As Exception  'toma la variable ex que es de excepcion y mandarlo por string 
-            MsgBox(ex.Message.ToString)
+            MsgBox("Se ha perdido la conexion")
             conexion.Close()
         End Try
 
@@ -77,7 +77,7 @@ Public Class Login
         miEmpresa = objeto
         ' miEmpresa.Connect()
         'If miEmpresa.Connect = 0 Then
-        MsgBox("conectado")
+        'MsgBox("conectado")
         ' End If
 
     End Function

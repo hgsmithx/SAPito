@@ -37,7 +37,7 @@ Public Class Formularios
         miEmpresa.Server = "10.2.0.202:30015"
         miEmpresa.LicenseServer = "10.2.0.202:40000"
         miEmpresa.CompanyDB = "ZZ_CAPACITACIONES"
-        miEmpresa.UserName = "wcastillo"
+        miEmpresa.UserName = "hsmith"
         miEmpresa.Password = "1234"
         miEmpresa.language = SAPbobsCOM.BoSuppLangs.ln_Spanish
         Panel99.Width += 50
@@ -63,7 +63,7 @@ Public Class Formularios
                     PedidoCompra.DocDate = FechaContable.Value.Date
                     PedidoCompra.DocDueDate = FechaValidez.Value.Date
                     PedidoCompra.TaxDate = FechaDocumento.Value.Date
-                    PedidoCompra.RequriedDate = FechaNecesaria.Value.Date
+                    PedidoCompra.RequriedDate = FechaNecesaria.Value
                     Panel99.Width += 25
 
                     For Each fila As DataGridViewRow In dgvDatos.Rows
@@ -71,7 +71,7 @@ Public Class Formularios
                         If fila.Cells(0).Value <> "" Then
                             PedidoCompra.Lines.ItemCode = fila.Cells(0).Value
                             PedidoCompra.Lines.LineVendor = fila.Cells(1).Value
-                            PedidoCompra.Lines.RequiredDate = Convert.ToDateTime(fila.Cells(2).Value) 'Convierte String a DateTime
+                            PedidoCompra.Lines.RequiredDate = fila.Cells(2).Value 'Convierte String a DateTime
                             PedidoCompra.Lines.Quantity = fila.Cells(3).Value
                             PedidoCompra.Lines.PriceAfterVAT = fila.Cells(4).Value
                             PedidoCompra.Lines.TaxCode = fila.Cells(5).Value
@@ -94,17 +94,17 @@ Public Class Formularios
                     Panel99.Width += 25
                     retval = PedidoCompra.Add
                     Dim oDoc As SAPbobsCOM.Documents
-                    Panel99.Width += 50
-                    oDoc = miEmpresa.GetBusinessObject(BoObjectTypes.oPurchaseRequest)
+                    'Panel99.Width += 50
+                    'oDoc = miEmpresa.GetBusinessObject(BoObjectTypes.oPurchaseRequest)
                     Panel99.Width += 25
-                    If oDoc.GetByKey(miEmpresa.GetNewObjectKey) Then
-                        lbl_nomdoc.Text = oDoc.DocNum.ToString
-                    End If
+                    'If oDoc.GetByKey(miEmpresa.GetNewObjectKey) Then
+                    'lbl_nomdoc.Text = oDoc.DocNum.ToString
+                    'End If
 
                     Panel99.Width += 25
                     If retval = 0 Then
 
-                        MsgBox("Felicdades!!! Datos guardados correctamente")
+                        MsgBox("Solicitud agregada con éxito")
 
                     Else
                         MsgBox("No ha sido posible realizar la Solicitud")
@@ -112,6 +112,7 @@ Public Class Formularios
 
                 Catch ex As Exception
                     MsgBox(ex.Message.ToString)
+                    Panel99.Width = 0
                 End Try
 
             Else

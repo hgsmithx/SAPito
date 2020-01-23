@@ -110,7 +110,7 @@ Public Class MenúPrincipal
 
     'Boton mantenedor de usuarios
     Private Sub btn_buniUsuarios_Click(sender As Object, e As EventArgs) Handles btn_buniUsuarios.Click
-        MsgBox(CadenaSQL)
+        'MsgBox(CadenaSQL)
         MantenedorUsuarios.getCadenaSQL = CadenaSQL
         MantenedorUsuarios.Show()
     End Sub

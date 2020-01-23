@@ -59,9 +59,9 @@ Partial Class Formularios
         Me.lbl_nomdoc = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PanelFondo = New System.Windows.Forms.Panel()
-        Me.PanelCarga = New System.Windows.Forms.Panel()
         Me.Panel99 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.PanelCarga = New System.Windows.Forms.Panel()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         CType(Me.dgvDatos, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -300,7 +300,7 @@ Partial Class Formularios
         Me.dgvDatos.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.dgvDatos.Location = New System.Drawing.Point(47, 247)
         Me.dgvDatos.Name = "dgvDatos"
-        Me.dgvDatos.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.[Single]
+        Me.dgvDatos.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
         DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
         DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control
         DataGridViewCellStyle1.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -523,13 +523,6 @@ Partial Class Formularios
         Me.PanelFondo.Size = New System.Drawing.Size(400, 8)
         Me.PanelFondo.TabIndex = 75
         '
-        'PanelCarga
-        '
-        Me.PanelCarga.Location = New System.Drawing.Point(0, 1)
-        Me.PanelCarga.Name = "PanelCarga"
-        Me.PanelCarga.Size = New System.Drawing.Size(0, 7)
-        Me.PanelCarga.TabIndex = 76
-        '
         'Panel99
         '
         Me.Panel99.BackColor = System.Drawing.Color.SeaGreen
@@ -545,6 +538,13 @@ Partial Class Formularios
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(0, 7)
         Me.Panel2.TabIndex = 76
+        '
+        'PanelCarga
+        '
+        Me.PanelCarga.Location = New System.Drawing.Point(0, 1)
+        Me.PanelCarga.Name = "PanelCarga"
+        Me.PanelCarga.Size = New System.Drawing.Size(0, 7)
+        Me.PanelCarga.TabIndex = 76
         '
         'Formularios
         '

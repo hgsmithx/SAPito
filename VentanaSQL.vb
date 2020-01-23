@@ -31,7 +31,7 @@ Public Class VentanaSQL
         Dim conexion As New SqlConnection(cadena)
         Try
             conexion.Open()
-            MsgBox("Conexion exitosa", MsgBoxStyle.MsgBoxRight)
+            'MsgBox("Conexion exitosa", MsgBoxStyle.MsgBoxRight)
             conexion.Close()
             VentanaSAP.setCadenaSQL = cadena
             VentanaSAP.Show()

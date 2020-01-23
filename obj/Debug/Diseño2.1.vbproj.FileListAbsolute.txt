@@ -125,3 +125,24 @@ C:\Users\Hugo\Desktop\Diseño_20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2.
 C:\Users\Hugo\Desktop\Diseño_20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2.1.exe
 C:\Users\Hugo\Desktop\Diseño_20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2.1.xml
 C:\Users\Hugo\Desktop\Diseño_20-01\Diseño_20-01\Diseño2.1\obj\Debug\Diseño2.1.pdb
+C:\Users\Hugo\source\repos\SAPito Master\Diseño2.1\bin\Debug\Diseño2.1.exe.config
+C:\Users\Hugo\source\repos\SAPito Master\Diseño2.1\bin\Debug\Diseño2.1.exe
+C:\Users\Hugo\source\repos\SAPito Master\Diseño2.1\bin\Debug\Diseño2.1.pdb
+C:\Users\Hugo\source\repos\SAPito Master\Diseño2.1\bin\Debug\Diseño2.1.xml
+C:\Users\Hugo\source\repos\SAPito Master\Diseño2.1\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Hugo\source\repos\SAPito Master\Diseño2.1\obj\Debug\Diseño2.1.vbprojAssemblyReference.cache
+C:\Users\Hugo\source\repos\SAPito Master\Diseño2.1\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\Hugo\source\repos\SAPito Master\Diseño2.1\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Users\Hugo\source\repos\SAPito Master\Diseño2.1\obj\Debug\Diseño2.1.vbproj.ResolveComReference.cache
+C:\Users\Hugo\source\repos\SAPito Master\Diseño2.1\obj\Debug\Diseño2._1.Formularios.resources
+C:\Users\Hugo\source\repos\SAPito Master\Diseño2.1\obj\Debug\Diseño2._1.Login.resources
+C:\Users\Hugo\source\repos\SAPito Master\Diseño2.1\obj\Debug\Diseño2._1.MantenedorUsuarios.resources
+C:\Users\Hugo\source\repos\SAPito Master\Diseño2.1\obj\Debug\Diseño2._1.MenúPrincipal.resources
+C:\Users\Hugo\source\repos\SAPito Master\Diseño2.1\obj\Debug\Diseño2._1.Resources.resources
+C:\Users\Hugo\source\repos\SAPito Master\Diseño2.1\obj\Debug\Diseño2._1.VentanaSAP.resources
+C:\Users\Hugo\source\repos\SAPito Master\Diseño2.1\obj\Debug\Diseño2._1.VentanaSQL.resources
+C:\Users\Hugo\source\repos\SAPito Master\Diseño2.1\obj\Debug\Diseño2.1.vbproj.GenerateResource.cache
+C:\Users\Hugo\source\repos\SAPito Master\Diseño2.1\obj\Debug\Diseño2.1.vbproj.CopyComplete
+C:\Users\Hugo\source\repos\SAPito Master\Diseño2.1\obj\Debug\Diseño2.1.exe
+C:\Users\Hugo\source\repos\SAPito Master\Diseño2.1\obj\Debug\Diseño2.1.xml
+C:\Users\Hugo\source\repos\SAPito Master\Diseño2.1\obj\Debug\Diseño2.1.pdb
