@@ -4,7 +4,6 @@ Imports System
 
 Public Class MenúPrincipal
     Public nombreUsuario As String
-    Public CadenaSQL As String
 
     ''''''''''''''''''''''''''''''''''''''
     ''4 Botones del panel menu izquierdo
@@ -26,8 +25,8 @@ Public Class MenúPrincipal
 
     Private Sub iconbtn_Rendiciones_Click(sender As Object, e As EventArgs) Handles bunibtn_Rendiciones.Click
         'ActivateButton(sender, Color.FromArgb(254, 194, 163))
+        hideSubmenu()
     End Sub
-
 
 
     ''''''''''Botones sair,max, etc''''''''''''''''''''''''''''''''''''''''''''''''''''''
@@ -101,17 +100,15 @@ Public Class MenúPrincipal
 
     Public Property getCadenaSQL()
         Get
-            Return CadenaSQL
+            'Return CadenaSQL
         End Get
         Set(value)
-            CadenaSQL = value
+            'CadenaSQL = value
         End Set
     End Property
 
     'Boton mantenedor de usuarios
     Private Sub btn_buniUsuarios_Click(sender As Object, e As EventArgs) Handles btn_buniUsuarios.Click
-        'MsgBox(CadenaSQL)
-        MantenedorUsuarios.getCadenaSQL = CadenaSQL
         MantenedorUsuarios.Show()
     End Sub
 
@@ -123,5 +120,14 @@ Public Class MenúPrincipal
     'boton de parametros SAP
     Private Sub btn_buniParamSAP_Click(sender As Object, e As EventArgs) Handles btn_buniParamSAP.Click
         VentanaSAP.Show()
+    End Sub
+
+    Private Sub BunifuFlatButton4_Click(sender As Object, e As EventArgs) Handles btn_prodEMSM.Click
+        Formulario_Produccion.Show()
+    End Sub
+
+    Private Sub bunibtn_Seguimiento_Click(sender As Object, e As EventArgs) Handles bunibtn_Seguimiento.Click
+        hideSubmenu()
+        SeguimientoSAP.Show()
     End Sub
 End Class

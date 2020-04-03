@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Formularios
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Formularios
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
@@ -55,7 +55,7 @@ Partial Class Formularios
         Me.BunifuImageButton2 = New Bunifu.Framework.UI.BunifuImageButton()
         Me.btn_cerrar = New Bunifu.Framework.UI.BunifuThinButton2()
         Me.btn_Crear = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtNumDoc = New System.Windows.Forms.TextBox()
         Me.lbl_nomdoc = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PanelFondo = New System.Windows.Forms.Panel()
@@ -86,7 +86,7 @@ Partial Class Formularios
         Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Controls.Add(Me.label_solicitante)
         Me.GroupBox1.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.Location = New System.Drawing.Point(47, 52)
+        Me.GroupBox1.Location = New System.Drawing.Point(37, 53)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(318, 152)
         Me.GroupBox1.TabIndex = 40
@@ -106,7 +106,7 @@ Partial Class Formularios
         '
         Me.txtCorreo.BackColor = System.Drawing.Color.WhiteSmoke
         Me.txtCorreo.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.txtCorreo.Font = New System.Drawing.Font("Century Gothic", 9.75!)
+        Me.txtCorreo.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtCorreo.ForeColor = System.Drawing.Color.Black
         Me.txtCorreo.HintForeColor = System.Drawing.Color.Gray
         Me.txtCorreo.HintText = "Correo SN"
@@ -135,7 +135,7 @@ Partial Class Formularios
         '
         Me.txtSolicitante.BackColor = System.Drawing.Color.WhiteSmoke
         Me.txtSolicitante.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.txtSolicitante.Font = New System.Drawing.Font("Century Gothic", 9.75!)
+        Me.txtSolicitante.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtSolicitante.ForeColor = System.Drawing.Color.Black
         Me.txtSolicitante.HintForeColor = System.Drawing.Color.Gray
         Me.txtSolicitante.HintText = "Código solicitante"
@@ -155,7 +155,7 @@ Partial Class Formularios
         '
         Me.txtNombre.BackColor = System.Drawing.Color.WhiteSmoke
         Me.txtNombre.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.txtNombre.Font = New System.Drawing.Font("Century Gothic", 9.75!)
+        Me.txtNombre.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtNombre.ForeColor = System.Drawing.Color.Black
         Me.txtNombre.HintForeColor = System.Drawing.Color.Gray
         Me.txtNombre.HintText = "Nombre solicitante"
@@ -202,9 +202,9 @@ Partial Class Formularios
         Me.GroupBox3.Controls.Add(Me.lbl_fechanec)
         Me.GroupBox3.Controls.Add(Me.lbl_fechadoc)
         Me.GroupBox3.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox3.Location = New System.Drawing.Point(440, 52)
+        Me.GroupBox3.Location = New System.Drawing.Point(423, 53)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(313, 152)
+        Me.GroupBox3.Size = New System.Drawing.Size(323, 152)
         Me.GroupBox3.TabIndex = 45
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Fechas"
@@ -218,7 +218,7 @@ Partial Class Formularios
         Me.FechaContable.Name = "FechaContable"
         Me.FechaContable.Size = New System.Drawing.Size(159, 27)
         Me.FechaContable.TabIndex = 79
-        Me.FechaContable.Value = New Date(2020, 1, 20, 0, 0, 0, 0)
+        Me.FechaContable.Value = New Date(2020, 2, 5, 0, 0, 0, 0)
         '
         'FechaValidez
         '
@@ -228,7 +228,7 @@ Partial Class Formularios
         Me.FechaValidez.Name = "FechaValidez"
         Me.FechaValidez.Size = New System.Drawing.Size(159, 27)
         Me.FechaValidez.TabIndex = 78
-        Me.FechaValidez.Value = New Date(2020, 1, 20, 0, 0, 0, 0)
+        Me.FechaValidez.Value = New Date(2020, 2, 5, 0, 0, 0, 0)
         '
         'FechaDocumento
         '
@@ -238,7 +238,7 @@ Partial Class Formularios
         Me.FechaDocumento.Name = "FechaDocumento"
         Me.FechaDocumento.Size = New System.Drawing.Size(159, 27)
         Me.FechaDocumento.TabIndex = 77
-        Me.FechaDocumento.Value = New Date(2020, 1, 20, 0, 0, 0, 0)
+        Me.FechaDocumento.Value = New Date(2020, 2, 5, 0, 0, 0, 0)
         '
         'FechaNecesaria
         '
@@ -248,7 +248,7 @@ Partial Class Formularios
         Me.FechaNecesaria.Name = "FechaNecesaria"
         Me.FechaNecesaria.Size = New System.Drawing.Size(159, 27)
         Me.FechaNecesaria.TabIndex = 76
-        Me.FechaNecesaria.Value = New Date(2020, 1, 20, 0, 0, 0, 0)
+        Me.FechaNecesaria.Value = New Date(2020, 2, 5, 0, 0, 0, 0)
         '
         'Label7
         '
@@ -298,7 +298,7 @@ Partial Class Formularios
         Me.dgvDatos.BackgroundColor = System.Drawing.SystemColors.ControlLightLight
         Me.dgvDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvDatos.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.dgvDatos.Location = New System.Drawing.Point(47, 247)
+        Me.dgvDatos.Location = New System.Drawing.Point(37, 249)
         Me.dgvDatos.Name = "dgvDatos"
         Me.dgvDatos.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
         DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
@@ -317,7 +317,7 @@ Partial Class Formularios
         DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.dgvDatos.RowsDefaultCellStyle = DataGridViewCellStyle2
         Me.dgvDatos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvDatos.Size = New System.Drawing.Size(706, 188)
+        Me.dgvDatos.Size = New System.Drawing.Size(709, 188)
         Me.dgvDatos.TabIndex = 46
         '
         'Panel_top
@@ -332,7 +332,7 @@ Partial Class Formularios
         Me.Panel_top.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel_top.Location = New System.Drawing.Point(0, 0)
         Me.Panel_top.Name = "Panel_top"
-        Me.Panel_top.Size = New System.Drawing.Size(792, 33)
+        Me.Panel_top.Size = New System.Drawing.Size(795, 33)
         Me.Panel_top.TabIndex = 69
         '
         'PictureBox1
@@ -362,7 +362,7 @@ Partial Class Formularios
         Me.btn_Maximizar.BackColor = System.Drawing.Color.Transparent
         Me.btn_Maximizar.Image = CType(resources.GetObject("btn_Maximizar.Image"), System.Drawing.Image)
         Me.btn_Maximizar.ImageActive = Nothing
-        Me.btn_Maximizar.Location = New System.Drawing.Point(694, 2)
+        Me.btn_Maximizar.Location = New System.Drawing.Point(697, 2)
         Me.btn_Maximizar.Name = "btn_Maximizar"
         Me.btn_Maximizar.Size = New System.Drawing.Size(36, 30)
         Me.btn_Maximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -376,7 +376,7 @@ Partial Class Formularios
         Me.btn_Restaurar.BackColor = System.Drawing.Color.Transparent
         Me.btn_Restaurar.Image = CType(resources.GetObject("btn_Restaurar.Image"), System.Drawing.Image)
         Me.btn_Restaurar.ImageActive = Nothing
-        Me.btn_Restaurar.Location = New System.Drawing.Point(694, 2)
+        Me.btn_Restaurar.Location = New System.Drawing.Point(697, 2)
         Me.btn_Restaurar.Name = "btn_Restaurar"
         Me.btn_Restaurar.Size = New System.Drawing.Size(36, 30)
         Me.btn_Restaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -391,7 +391,7 @@ Partial Class Formularios
         Me.btn_Salir.BackColor = System.Drawing.Color.Transparent
         Me.btn_Salir.Image = CType(resources.GetObject("btn_Salir.Image"), System.Drawing.Image)
         Me.btn_Salir.ImageActive = Nothing
-        Me.btn_Salir.Location = New System.Drawing.Point(736, 2)
+        Me.btn_Salir.Location = New System.Drawing.Point(739, 2)
         Me.btn_Salir.Name = "btn_Salir"
         Me.btn_Salir.Size = New System.Drawing.Size(36, 30)
         Me.btn_Salir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -405,7 +405,7 @@ Partial Class Formularios
         Me.btn_Minimizar.BackColor = System.Drawing.Color.Transparent
         Me.btn_Minimizar.Image = CType(resources.GetObject("btn_Minimizar.Image"), System.Drawing.Image)
         Me.btn_Minimizar.ImageActive = Nothing
-        Me.btn_Minimizar.Location = New System.Drawing.Point(652, 2)
+        Me.btn_Minimizar.Location = New System.Drawing.Point(655, 2)
         Me.btn_Minimizar.Name = "btn_Minimizar"
         Me.btn_Minimizar.Size = New System.Drawing.Size(36, 30)
         Me.btn_Minimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -426,9 +426,9 @@ Partial Class Formularios
         Me.BunifuImageButton2.BackColor = System.Drawing.Color.Transparent
         Me.BunifuImageButton2.Image = CType(resources.GetObject("BunifuImageButton2.Image"), System.Drawing.Image)
         Me.BunifuImageButton2.ImageActive = Nothing
-        Me.BunifuImageButton2.Location = New System.Drawing.Point(694, 441)
+        Me.BunifuImageButton2.Location = New System.Drawing.Point(655, 445)
         Me.BunifuImageButton2.Name = "BunifuImageButton2"
-        Me.BunifuImageButton2.Size = New System.Drawing.Size(59, 20)
+        Me.BunifuImageButton2.Size = New System.Drawing.Size(91, 30)
         Me.BunifuImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.BunifuImageButton2.TabIndex = 65
         Me.BunifuImageButton2.TabStop = False
@@ -450,10 +450,10 @@ Partial Class Formularios
         Me.btn_cerrar.ForeColor = System.Drawing.Color.Gainsboro
         Me.btn_cerrar.IdleBorderThickness = 1
         Me.btn_cerrar.IdleCornerRadius = 20
-        Me.btn_cerrar.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(149, Byte), Integer), CType(CType(117, Byte), Integer))
+        Me.btn_cerrar.IdleFillColor = System.Drawing.Color.DarkGray
         Me.btn_cerrar.IdleForecolor = System.Drawing.Color.WhiteSmoke
-        Me.btn_cerrar.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(149, Byte), Integer), CType(CType(117, Byte), Integer))
-        Me.btn_cerrar.Location = New System.Drawing.Point(660, 469)
+        Me.btn_cerrar.IdleLineColor = System.Drawing.Color.DarkGray
+        Me.btn_cerrar.Location = New System.Drawing.Point(653, 483)
         Me.btn_cerrar.Margin = New System.Windows.Forms.Padding(5)
         Me.btn_cerrar.Name = "btn_cerrar"
         Me.btn_cerrar.Size = New System.Drawing.Size(93, 49)
@@ -478,26 +478,30 @@ Partial Class Formularios
         Me.btn_Crear.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(77, Byte), Integer), CType(CType(146, Byte), Integer), CType(CType(102, Byte), Integer))
         Me.btn_Crear.IdleForecolor = System.Drawing.SystemColors.Window
         Me.btn_Crear.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(77, Byte), Integer), CType(CType(146, Byte), Integer), CType(CType(102, Byte), Integer))
-        Me.btn_Crear.Location = New System.Drawing.Point(47, 469)
+        Me.btn_Crear.Location = New System.Drawing.Point(47, 483)
         Me.btn_Crear.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_Crear.Name = "btn_Crear"
         Me.btn_Crear.Size = New System.Drawing.Size(93, 49)
         Me.btn_Crear.TabIndex = 70
         Me.btn_Crear.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'TextBox1
+        'txtNumDoc
         '
-        Me.TextBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox1.Location = New System.Drawing.Point(674, 221)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(79, 20)
-        Me.TextBox1.TabIndex = 72
+        Me.txtNumDoc.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.txtNumDoc.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.txtNumDoc.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNumDoc.Location = New System.Drawing.Point(678, 224)
+        Me.txtNumDoc.Name = "txtNumDoc"
+        Me.txtNumDoc.ReadOnly = True
+        Me.txtNumDoc.Size = New System.Drawing.Size(68, 21)
+        Me.txtNumDoc.TabIndex = 72
+        Me.txtNumDoc.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'lbl_nomdoc
         '
         Me.lbl_nomdoc.AutoSize = True
         Me.lbl_nomdoc.Font = New System.Drawing.Font("Tahoma", 8.0!)
-        Me.lbl_nomdoc.Location = New System.Drawing.Point(680, 225)
+        Me.lbl_nomdoc.Location = New System.Drawing.Point(74, 222)
         Me.lbl_nomdoc.Name = "lbl_nomdoc"
         Me.lbl_nomdoc.Size = New System.Drawing.Size(0, 13)
         Me.lbl_nomdoc.TabIndex = 73
@@ -507,7 +511,7 @@ Partial Class Formularios
         Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(524, 222)
+        Me.Label1.Location = New System.Drawing.Point(519, 224)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(150, 19)
         Me.Label1.TabIndex = 74
@@ -518,7 +522,7 @@ Partial Class Formularios
         Me.PanelFondo.BackColor = System.Drawing.Color.LightGray
         Me.PanelFondo.Controls.Add(Me.Panel99)
         Me.PanelFondo.Controls.Add(Me.PanelCarga)
-        Me.PanelFondo.Location = New System.Drawing.Point(171, 488)
+        Me.PanelFondo.Location = New System.Drawing.Point(174, 504)
         Me.PanelFondo.Name = "PanelFondo"
         Me.PanelFondo.Size = New System.Drawing.Size(400, 8)
         Me.PanelFondo.TabIndex = 75
@@ -550,11 +554,11 @@ Partial Class Formularios
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(792, 524)
+        Me.ClientSize = New System.Drawing.Size(795, 546)
         Me.Controls.Add(Me.PanelFondo)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.lbl_nomdoc)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtNumDoc)
         Me.Controls.Add(Me.btn_Crear)
         Me.Controls.Add(Me.Panel_top)
         Me.Controls.Add(Me.BunifuImageButton2)
@@ -563,6 +567,7 @@ Partial Class Formularios
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Formularios"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Formularios"
@@ -611,7 +616,7 @@ Partial Class Formularios
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents BunifuCustomLabel1 As Bunifu.Framework.UI.BunifuCustomLabel
     Friend WithEvents lblNumDocumento As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txtNumDoc As TextBox
     Friend WithEvents lbl_nomdoc As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents FechaNecesaria As DateTimePicker

@@ -624,6 +624,7 @@ Partial Class VentanaSAP
         Me.Controls.Add(Me.BunifuGradientPanel1)
         Me.Controls.Add(Me.Panel_header)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "VentanaSAP"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "VentanaSAP"

@@ -23,7 +23,7 @@ Partial Class Login
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Login))
-        Me.txtUsuario = New Bunifu.Framework.UI.BunifuTextbox()
+        Me.txtUsuario_fondo = New Bunifu.Framework.UI.BunifuTextbox()
         Me.btn_ingresar = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.btn_salir = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.BunifuSeparator1 = New Bunifu.Framework.UI.BunifuSeparator()
@@ -39,18 +39,18 @@ Partial Class Login
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'txtUsuario
+        'txtUsuario_fondo
         '
-        Me.txtUsuario.BackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(92, Byte), Integer))
-        Me.txtUsuario.BackgroundImage = CType(resources.GetObject("txtUsuario.BackgroundImage"), System.Drawing.Image)
-        Me.txtUsuario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.txtUsuario.ForeColor = System.Drawing.Color.White
-        Me.txtUsuario.Icon = CType(resources.GetObject("txtUsuario.Icon"), System.Drawing.Image)
-        Me.txtUsuario.Location = New System.Drawing.Point(0, 0)
-        Me.txtUsuario.Name = "txtUsuario"
-        Me.txtUsuario.Size = New System.Drawing.Size(254, 32)
-        Me.txtUsuario.TabIndex = 2
-        Me.txtUsuario.text = "Usuario"
+        Me.txtUsuario_fondo.BackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(92, Byte), Integer))
+        Me.txtUsuario_fondo.BackgroundImage = CType(resources.GetObject("txtUsuario_fondo.BackgroundImage"), System.Drawing.Image)
+        Me.txtUsuario_fondo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.txtUsuario_fondo.ForeColor = System.Drawing.Color.White
+        Me.txtUsuario_fondo.Icon = CType(resources.GetObject("txtUsuario_fondo.Icon"), System.Drawing.Image)
+        Me.txtUsuario_fondo.Location = New System.Drawing.Point(0, 0)
+        Me.txtUsuario_fondo.Name = "txtUsuario_fondo"
+        Me.txtUsuario_fondo.Size = New System.Drawing.Size(254, 32)
+        Me.txtUsuario_fondo.TabIndex = 2
+        Me.txtUsuario_fondo.text = "Usuario"
         '
         'btn_ingresar
         '
@@ -170,11 +170,11 @@ Partial Class Login
         Me.lbl_sesion.AutoSize = True
         Me.lbl_sesion.BackColor = System.Drawing.Color.Transparent
         Me.lbl_sesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.lbl_sesion.Font = New System.Drawing.Font("Britannic Bold", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_sesion.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_sesion.ForeColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(92, Byte), Integer))
         Me.lbl_sesion.Location = New System.Drawing.Point(74, 150)
         Me.lbl_sesion.Name = "lbl_sesion"
-        Me.lbl_sesion.Size = New System.Drawing.Size(215, 37)
+        Me.lbl_sesion.Size = New System.Drawing.Size(209, 38)
         Me.lbl_sesion.TabIndex = 8
         Me.lbl_sesion.Text = "Inicio sesión"
         '
@@ -194,7 +194,7 @@ Partial Class Login
         '
         'Panel1
         '
-        Me.Panel1.Controls.Add(Me.txtUsuario)
+        Me.Panel1.Controls.Add(Me.txtUsuario_fondo)
         Me.Panel1.Location = New System.Drawing.Point(52, 219)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(254, 32)
@@ -210,6 +210,7 @@ Partial Class Login
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.btn_salir)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Login"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form2"
@@ -222,7 +223,7 @@ Partial Class Login
 
     End Sub
     Friend WithEvents txtPass As Bunifu.Framework.UI.BunifuTextbox
-    Friend WithEvents txtUsuario As Bunifu.Framework.UI.BunifuTextbox
+    Friend WithEvents txtUsuario_fondo As Bunifu.Framework.UI.BunifuTextbox
     Friend WithEvents btn_ingresar As Bunifu.Framework.UI.BunifuFlatButton
     Friend WithEvents btn_salir As Bunifu.Framework.UI.BunifuFlatButton
     Friend WithEvents BunifuSeparator1 As Bunifu.Framework.UI.BunifuSeparator

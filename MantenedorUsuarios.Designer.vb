@@ -41,6 +41,7 @@ Partial Class MantenedorUsuarios
         Me.btn_buniBuscar = New Bunifu.Framework.UI.BunifuImageButton()
         Me.txtBuscar = New WindowsFormsControlLibrary1.BunifuCustomTextbox()
         Me.grilla = New System.Windows.Forms.DataGridView()
+        Me.busqueda = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.Panel_header.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btn_buniMinimizar, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -128,7 +129,7 @@ Partial Class MantenedorUsuarios
         Me.GroupBox1.Size = New System.Drawing.Size(262, 168)
         Me.GroupBox1.TabIndex = 50
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Informacion personal"
+        Me.GroupBox1.Text = "Información personal"
         '
         'txtbuni_Contraseña
         '
@@ -199,7 +200,7 @@ Partial Class MantenedorUsuarios
         Me.btn_Actualizar.ActiveLineColor = System.Drawing.Color.SeaGreen
         Me.btn_Actualizar.BackColor = System.Drawing.SystemColors.Control
         Me.btn_Actualizar.BackgroundImage = CType(resources.GetObject("btn_Actualizar.BackgroundImage"), System.Drawing.Image)
-        Me.btn_Actualizar.ButtonText = "Actualizar"
+        Me.btn_Actualizar.ButtonText = "Modificar"
         Me.btn_Actualizar.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btn_Actualizar.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_Actualizar.ForeColor = System.Drawing.Color.SeaGreen
@@ -258,7 +259,7 @@ Partial Class MantenedorUsuarios
         Me.btn_Agregar.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(77, Byte), Integer), CType(CType(146, Byte), Integer), CType(CType(102, Byte), Integer))
         Me.btn_Agregar.IdleForecolor = System.Drawing.Color.White
         Me.btn_Agregar.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(77, Byte), Integer), CType(CType(146, Byte), Integer), CType(CType(102, Byte), Integer))
-        Me.btn_Agregar.Location = New System.Drawing.Point(38, 253)
+        Me.btn_Agregar.Location = New System.Drawing.Point(107, 253)
         Me.btn_Agregar.Margin = New System.Windows.Forms.Padding(5)
         Me.btn_Agregar.Name = "btn_Agregar"
         Me.btn_Agregar.Size = New System.Drawing.Size(109, 43)
@@ -270,9 +271,9 @@ Partial Class MantenedorUsuarios
         Me.btn_buniBuscar.BackColor = System.Drawing.Color.Transparent
         Me.btn_buniBuscar.Image = CType(resources.GetObject("btn_buniBuscar.Image"), System.Drawing.Image)
         Me.btn_buniBuscar.ImageActive = Nothing
-        Me.btn_buniBuscar.Location = New System.Drawing.Point(756, 65)
+        Me.btn_buniBuscar.Location = New System.Drawing.Point(754, 65)
         Me.btn_buniBuscar.Name = "btn_buniBuscar"
-        Me.btn_buniBuscar.Size = New System.Drawing.Size(40, 19)
+        Me.btn_buniBuscar.Size = New System.Drawing.Size(40, 20)
         Me.btn_buniBuscar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.btn_buniBuscar.TabIndex = 52
         Me.btn_buniBuscar.TabStop = False
@@ -283,9 +284,8 @@ Partial Class MantenedorUsuarios
         Me.txtBuscar.BorderColor = System.Drawing.Color.SeaGreen
         Me.txtBuscar.Location = New System.Drawing.Point(622, 65)
         Me.txtBuscar.Name = "txtBuscar"
-        Me.txtBuscar.Size = New System.Drawing.Size(174, 20)
+        Me.txtBuscar.Size = New System.Drawing.Size(132, 20)
         Me.txtBuscar.TabIndex = 53
-        Me.txtBuscar.Text = "Buscar"
         '
         'grilla
         '
@@ -307,12 +307,23 @@ Partial Class MantenedorUsuarios
         Me.grilla.Size = New System.Drawing.Size(473, 206)
         Me.grilla.TabIndex = 55
         '
+        'busqueda
+        '
+        Me.busqueda.AutoSize = True
+        Me.busqueda.Font = New System.Drawing.Font("Tahoma", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.busqueda.Location = New System.Drawing.Point(570, 65)
+        Me.busqueda.Name = "busqueda"
+        Me.busqueda.Size = New System.Drawing.Size(49, 17)
+        Me.busqueda.TabIndex = 56
+        Me.busqueda.Text = "Buscar"
+        '
         'MantenedorUsuarios
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Control
-        Me.ClientSize = New System.Drawing.Size(815, 455)
+        Me.ClientSize = New System.Drawing.Size(815, 367)
+        Me.Controls.Add(Me.busqueda)
         Me.Controls.Add(Me.grilla)
         Me.Controls.Add(Me.btn_buniBuscar)
         Me.Controls.Add(Me.txtBuscar)
@@ -322,7 +333,9 @@ Partial Class MantenedorUsuarios
         Me.Controls.Add(Me.btn_Agregar)
         Me.Controls.Add(Me.Panel_header)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "MantenedorUsuarios"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "MantenedorUsuarios"
         Me.Panel_header.ResumeLayout(False)
         Me.Panel_header.PerformLayout()
@@ -353,4 +366,5 @@ Partial Class MantenedorUsuarios
     Friend WithEvents txtBuscar As WindowsFormsControlLibrary1.BunifuCustomTextbox
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents grilla As DataGridView
+    Friend WithEvents busqueda As Bunifu.Framework.UI.BunifuCustomLabel
 End Class

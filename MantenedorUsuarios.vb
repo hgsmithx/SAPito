@@ -4,32 +4,18 @@ Imports System.Data.OleDb
 Imports System.Data.DataTable
 
 Public Class MantenedorUsuarios
-    Dim sql, cadenaSQL As String
+    Dim sql As String
     Dim lectura As SqlDataReader 'data reader lee'
-    Dim tipoconexion As Cadenas = New Cadenas()
+    'Dim tipoconexion As Cadenas = New Cadenas()
     Dim tabla As New DataTable
-    Dim conexion As New SqlConnection(cadenaSQL)
+    'Dim conexion As New SqlConnection(cadenaSQL)
+    Dim cadenaSQL As String = Login.cadenasql
 
     Private Sub MantenedorUsuarios_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'btn_Agregar.Visible = False
         'btn_Agregar.Visible = True
         'cadena = tipoconexion.EscogeConexion
-        Dim conexion As New SqlConnection(cadenaSQL)
-
-        sql = "SELECT  idusuario as 'Id de Usuario', Password as 'Contraseña' , Nombre as 'Nombre usuario'  from Usuarios"
-        Dim da As New SqlDataAdapter(sql, conexion)
-        Try
-            conexion.Open()
-            tabla.Clear()
-            da.Fill(tabla) ' Carga los datos de la consulta en la tabla
-            grilla.DataSource = Nothing ' el grid carga la tabla'
-            grilla.DataSource = tabla
-            grilla.Columns(0).ReadOnly = True 'Para no editar el id
-            conexion.Close()
-        Catch ex As Exception
-            MsgBox("Se ha perdido la conexion")
-            conexion.Close()
-        End Try
+        cargarTabla()
 
     End Sub
 
@@ -106,7 +92,7 @@ Public Class MantenedorUsuarios
     '''''''''''''''''''''''''
     Private Sub btn_Actualizar_Click(sender As Object, e As EventArgs) Handles btn_Actualizar.Click
         Dim conexion As New SqlConnection(cadenaSQL)
-
+        grilla.CurrentCell = Nothing
         Using conexion
             conexion.Open()
             Dim sql2 As String = "UPDATE Usuarios SET Password=@password, Nombre=@nombre" &
@@ -154,11 +140,24 @@ Public Class MantenedorUsuarios
 
 
     Private Sub txtbuni_buscar_TextChanged(sender As Object, e As EventArgs) Handles txtBuscar.TextChanged
-        'consulta_dinamica(txtBuscar.Text, grilla)
-        '    cadena = tipoconexion.EscogeConexion
-        '    Dim cargar As New OleDbDataAdapter("SELECT idUsuario,Password,Nombre FROM Usuarios where Nombre like'" & txtBuscar.Text & "%'", cadena)
-        '    Dim DS As New DataSet
-        '    cargar.Fill(DS, Usuarios)
+        '''''''''''''''''''''''''''
+        '''''Busqueda dinámica'''''
+        '''''''''''''''''''''''''''
+        If (txtBuscar.Text <> "") Then
+            grilla.CurrentCell = Nothing
+            For Each fila As DataGridViewRow In grilla.Rows
+                fila.Visible = False
+            Next
+            For Each fila As DataGridViewRow In grilla.Rows
+                For Each celda As DataGridViewCell In fila.Cells
+                    If ((celda.Value.ToString.ToUpper).IndexOf(txtBuscar.Text.ToUpper) = 0) Then
+                        fila.Visible = True
+                    End If
+                Next
+            Next
+        Else
+            cargarTabla()
+        End If
     End Sub
 
 
@@ -190,4 +189,24 @@ Public Class MantenedorUsuarios
         End Try
         Return resultado
     End Function
+    Public Function cargarTabla()
+        Dim conexion As New SqlConnection(cadenaSQL)
+
+        sql = "SELECT  idusuario as 'Id de Usuario', Password as 'Contraseña' , Nombre as 'Nombre usuario'  from Usuarios"
+        Dim da As New SqlDataAdapter(sql, conexion)
+        Try
+            conexion.Open()
+            tabla.Clear()
+            da.Fill(tabla) ' Carga los datos de la consulta en la tabla
+            grilla.DataSource = Nothing ' el grid carga la tabla'
+            grilla.DataSource = tabla
+            grilla.Columns(0).ReadOnly = True 'Para no editar el id
+            conexion.Close()
+        Catch ex As Exception
+            MsgBox("Se ha perdido la conexion")
+            conexion.Close()
+        End Try
+    End Function
+
+
 End Class

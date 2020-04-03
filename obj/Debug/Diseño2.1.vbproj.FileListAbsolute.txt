@@ -146,3 +146,234 @@ C:\Users\Hugo\source\repos\SAPito Master\Diseño2.1\obj\Debug\Diseño2.1.vbproj.
 C:\Users\Hugo\source\repos\SAPito Master\Diseño2.1\obj\Debug\Diseño2.1.exe
 C:\Users\Hugo\source\repos\SAPito Master\Diseño2.1\obj\Debug\Diseño2.1.xml
 C:\Users\Hugo\source\repos\SAPito Master\Diseño2.1\obj\Debug\Diseño2.1.pdb
+C:\Users\Hugo\source\repos\SAPito Master\Diseño2.1\obj\Debug\Diseño2._1.Splash.resources
+C:\Users\wendo\Desktop\SAPito.v3.0\Diseño2.1\bin\Debug\Diseño2.1.exe.config
+C:\Users\wendo\Desktop\SAPito.v3.0\Diseño2.1\bin\Debug\Diseño2.1.exe
+C:\Users\wendo\Desktop\SAPito.v3.0\Diseño2.1\bin\Debug\Diseño2.1.pdb
+C:\Users\wendo\Desktop\SAPito.v3.0\Diseño2.1\bin\Debug\Diseño2.1.xml
+C:\Users\wendo\Desktop\SAPito.v3.0\Diseño2.1\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\wendo\Desktop\SAPito.v3.0\Diseño2.1\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\wendo\Desktop\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.vbprojAssemblyReference.cache
+C:\Users\wendo\Desktop\SAPito.v3.0\Diseño2.1\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\wendo\Desktop\SAPito.v3.0\Diseño2.1\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Users\wendo\Desktop\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.vbproj.ResolveComReference.cache
+C:\Users\wendo\Desktop\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.Formularios.resources
+C:\Users\wendo\Desktop\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.Login.resources
+C:\Users\wendo\Desktop\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.MantenedorUsuarios.resources
+C:\Users\wendo\Desktop\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.MenúPrincipal.resources
+C:\Users\wendo\Desktop\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.Resources.resources
+C:\Users\wendo\Desktop\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.Splash.resources
+C:\Users\wendo\Desktop\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.VentanaSAP.resources
+C:\Users\wendo\Desktop\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.VentanaSQL.resources
+C:\Users\wendo\Desktop\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.vbproj.GenerateResource.cache
+C:\Users\wendo\Desktop\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.vbproj.CopyComplete
+C:\Users\wendo\Desktop\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.exe
+C:\Users\wendo\Desktop\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.xml
+C:\Users\wendo\Desktop\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.pdb
+C:\Users\wendo\Desktop\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.Formulario_Produccion.resources
+C:\Users\wendo\Desktop\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.VentanaModal.resources
+C:\Users\wendo\Desktop\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\bin\Debug\Diseño2.1.exe.config
+C:\Users\wendo\Desktop\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\bin\Debug\Diseño2.1.exe
+C:\Users\wendo\Desktop\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\bin\Debug\Diseño2.1.pdb
+C:\Users\wendo\Desktop\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\bin\Debug\Diseño2.1.xml
+C:\Users\wendo\Desktop\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\wendo\Desktop\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.vbprojAssemblyReference.cache
+C:\Users\wendo\Desktop\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\wendo\Desktop\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Users\wendo\Desktop\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.vbproj.ResolveComReference.cache
+C:\Users\wendo\Desktop\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.Formularios.resources
+C:\Users\wendo\Desktop\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.Formulario_Produccion.resources
+C:\Users\wendo\Desktop\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.Login.resources
+C:\Users\wendo\Desktop\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.MantenedorUsuarios.resources
+C:\Users\wendo\Desktop\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.MenúPrincipal.resources
+C:\Users\wendo\Desktop\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.Resources.resources
+C:\Users\wendo\Desktop\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.Splash.resources
+C:\Users\wendo\Desktop\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.VentanaModal.resources
+C:\Users\wendo\Desktop\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.VentanaSAP.resources
+C:\Users\wendo\Desktop\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.VentanaSQL.resources
+C:\Users\wendo\Desktop\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.vbproj.GenerateResource.cache
+C:\Users\wendo\Desktop\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.vbproj.CopyComplete
+C:\Users\wendo\Desktop\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.exe
+C:\Users\wendo\Desktop\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.xml
+C:\Users\wendo\Desktop\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.pdb
+C:\Users\wendo\Desktop\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.SeguimientoSAP.resources
+C:\Users\linco\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\bin\Debug\Diseño2.1.exe.config
+C:\Users\linco\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\bin\Debug\Diseño2.1.exe
+C:\Users\linco\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\bin\Debug\Diseño2.1.pdb
+C:\Users\linco\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\bin\Debug\Diseño2.1.xml
+C:\Users\linco\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\linco\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.vbprojAssemblyReference.cache
+C:\Users\linco\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\linco\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Users\linco\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.vbproj.ResolveComReference.cache
+C:\Users\linco\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.SeguimientoSAP.resources
+C:\Users\linco\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.Formularios.resources
+C:\Users\linco\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.Formulario_Produccion.resources
+C:\Users\linco\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.Login.resources
+C:\Users\linco\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.MantenedorUsuarios.resources
+C:\Users\linco\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.MenúPrincipal.resources
+C:\Users\linco\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.Resources.resources
+C:\Users\linco\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.Splash.resources
+C:\Users\linco\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.VentanaModal.resources
+C:\Users\linco\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.VentanaSAP.resources
+C:\Users\linco\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.VentanaSQL.resources
+C:\Users\linco\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.vbproj.GenerateResource.cache
+C:\Users\linco\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.vbproj.CopyComplete
+C:\Users\linco\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.exe
+C:\Users\linco\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.xml
+C:\Users\linco\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.pdb
+C:\Users\wendo\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\bin\Debug\Diseño2.1.exe.config
+C:\Users\wendo\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\bin\Debug\Diseño2.1.exe
+C:\Users\wendo\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\bin\Debug\Diseño2.1.pdb
+C:\Users\wendo\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\bin\Debug\Diseño2.1.xml
+C:\Users\wendo\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\wendo\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.vbprojAssemblyReference.cache
+C:\Users\wendo\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\wendo\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Users\wendo\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.vbproj.ResolveComReference.cache
+C:\Users\wendo\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.SeguimientoSAP.resources
+C:\Users\wendo\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.Formularios.resources
+C:\Users\wendo\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.Formulario_Produccion.resources
+C:\Users\wendo\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.Login.resources
+C:\Users\wendo\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.MantenedorUsuarios.resources
+C:\Users\wendo\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.MenúPrincipal.resources
+C:\Users\wendo\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.Resources.resources
+C:\Users\wendo\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.Splash.resources
+C:\Users\wendo\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.VentanaModal.resources
+C:\Users\wendo\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.VentanaSAP.resources
+C:\Users\wendo\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2._1.VentanaSQL.resources
+C:\Users\wendo\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.vbproj.GenerateResource.cache
+C:\Users\wendo\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.vbproj.CopyComplete
+C:\Users\wendo\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.exe
+C:\Users\wendo\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.xml
+C:\Users\wendo\Desktop\Actual\SAPito\SAPito.v3.0+modal\SAPito.v3.0\Diseño2.1\obj\Debug\Diseño2.1.pdb
+C:\Users\linco\Desktop\SAPito\Diseño2.1\bin\Debug\Diseño2.1.exe.config
+C:\Users\linco\Desktop\SAPito\Diseño2.1\bin\Debug\Diseño2.1.exe
+C:\Users\linco\Desktop\SAPito\Diseño2.1\bin\Debug\Diseño2.1.pdb
+C:\Users\linco\Desktop\SAPito\Diseño2.1\bin\Debug\Diseño2.1.xml
+C:\Users\linco\Desktop\SAPito\Diseño2.1\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\linco\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2.1.vbprojAssemblyReference.cache
+C:\Users\linco\Desktop\SAPito\Diseño2.1\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\linco\Desktop\SAPito\Diseño2.1\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Users\linco\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2.1.vbproj.ResolveComReference.cache
+C:\Users\linco\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2._1.SeguimientoSAP.resources
+C:\Users\linco\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2._1.Formularios.resources
+C:\Users\linco\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2._1.Formulario_Produccion.resources
+C:\Users\linco\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2._1.Login.resources
+C:\Users\linco\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2._1.MantenedorUsuarios.resources
+C:\Users\linco\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2._1.MenúPrincipal.resources
+C:\Users\linco\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2._1.Resources.resources
+C:\Users\linco\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2._1.Splash.resources
+C:\Users\linco\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2._1.VentanaModal.resources
+C:\Users\linco\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2._1.VentanaSAP.resources
+C:\Users\linco\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2._1.VentanaSQL.resources
+C:\Users\linco\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2.1.vbproj.GenerateResource.cache
+C:\Users\linco\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2.1.vbproj.CopyComplete
+C:\Users\linco\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2.1.exe
+C:\Users\linco\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2.1.xml
+C:\Users\linco\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2.1.pdb
+C:\Users\linco\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2._1.VentanaModal2.resources
+C:\Users\wendo\Desktop\SAPito\Diseño2.1\bin\Debug\Diseño2.1.exe.config
+C:\Users\wendo\Desktop\SAPito\Diseño2.1\bin\Debug\Diseño2.1.exe
+C:\Users\wendo\Desktop\SAPito\Diseño2.1\bin\Debug\Diseño2.1.pdb
+C:\Users\wendo\Desktop\SAPito\Diseño2.1\bin\Debug\Diseño2.1.xml
+C:\Users\wendo\Desktop\SAPito\Diseño2.1\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\wendo\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2.1.vbprojAssemblyReference.cache
+C:\Users\wendo\Desktop\SAPito\Diseño2.1\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\wendo\Desktop\SAPito\Diseño2.1\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Users\wendo\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2.1.vbproj.ResolveComReference.cache
+C:\Users\wendo\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2._1.SeguimientoSAP.resources
+C:\Users\wendo\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2._1.Formularios.resources
+C:\Users\wendo\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2._1.Formulario_Produccion.resources
+C:\Users\wendo\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2._1.Login.resources
+C:\Users\wendo\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2._1.MantenedorUsuarios.resources
+C:\Users\wendo\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2._1.MenúPrincipal.resources
+C:\Users\wendo\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2._1.Resources.resources
+C:\Users\wendo\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2._1.Splash.resources
+C:\Users\wendo\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2._1.VentanaModal.resources
+C:\Users\wendo\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2._1.VentanaModal2.resources
+C:\Users\wendo\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2._1.VentanaSAP.resources
+C:\Users\wendo\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2._1.VentanaSQL.resources
+C:\Users\wendo\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2.1.vbproj.GenerateResource.cache
+C:\Users\wendo\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2.1.vbproj.CopyComplete
+C:\Users\wendo\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2.1.exe
+C:\Users\wendo\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2.1.xml
+C:\Users\wendo\Desktop\SAPito\Diseño2.1\obj\Debug\Diseño2.1.pdb
+C:\Users\linco\Desktop\SAPito\SAPito\Diseño2.1\bin\Debug\Diseño2.1.exe.config
+C:\Users\linco\Desktop\SAPito\SAPito\Diseño2.1\bin\Debug\Diseño2.1.exe
+C:\Users\linco\Desktop\SAPito\SAPito\Diseño2.1\bin\Debug\Diseño2.1.pdb
+C:\Users\linco\Desktop\SAPito\SAPito\Diseño2.1\bin\Debug\Diseño2.1.xml
+C:\Users\linco\Desktop\SAPito\SAPito\Diseño2.1\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\linco\Desktop\SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2.1.vbprojAssemblyReference.cache
+C:\Users\linco\Desktop\SAPito\SAPito\Diseño2.1\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\linco\Desktop\SAPito\SAPito\Diseño2.1\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Users\linco\Desktop\SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2.1.vbproj.ResolveComReference.cache
+C:\Users\linco\Desktop\SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.SeguimientoSAP.resources
+C:\Users\linco\Desktop\SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.Formularios.resources
+C:\Users\linco\Desktop\SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.Formulario_Produccion.resources
+C:\Users\linco\Desktop\SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.Login.resources
+C:\Users\linco\Desktop\SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.MantenedorUsuarios.resources
+C:\Users\linco\Desktop\SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.MenúPrincipal.resources
+C:\Users\linco\Desktop\SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.Resources.resources
+C:\Users\linco\Desktop\SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.Splash.resources
+C:\Users\linco\Desktop\SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.VentanaModal.resources
+C:\Users\linco\Desktop\SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.VentanaModal2.resources
+C:\Users\linco\Desktop\SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.VentanaSAP.resources
+C:\Users\linco\Desktop\SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.VentanaSQL.resources
+C:\Users\linco\Desktop\SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2.1.vbproj.GenerateResource.cache
+C:\Users\linco\Desktop\SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2.1.vbproj.CopyComplete
+C:\Users\linco\Desktop\SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2.1.exe
+C:\Users\linco\Desktop\SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2.1.xml
+C:\Users\linco\Desktop\SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2.1.pdb
+C:\Users\linco\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\bin\Debug\Diseño2.1.exe.config
+C:\Users\linco\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\bin\Debug\Diseño2.1.exe
+C:\Users\linco\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\bin\Debug\Diseño2.1.pdb
+C:\Users\linco\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\bin\Debug\Diseño2.1.xml
+C:\Users\linco\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\linco\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2.1.vbprojAssemblyReference.cache
+C:\Users\linco\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\linco\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Users\linco\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2.1.vbproj.ResolveComReference.cache
+C:\Users\linco\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.SeguimientoSAP.resources
+C:\Users\linco\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.Formularios.resources
+C:\Users\linco\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.Formulario_Produccion.resources
+C:\Users\linco\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.Login.resources
+C:\Users\linco\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.MantenedorUsuarios.resources
+C:\Users\linco\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.MenúPrincipal.resources
+C:\Users\linco\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.Resources.resources
+C:\Users\linco\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.Splash.resources
+C:\Users\linco\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.VentanaModal.resources
+C:\Users\linco\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.VentanaModal2.resources
+C:\Users\linco\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.VentanaSAP.resources
+C:\Users\linco\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.VentanaSQL.resources
+C:\Users\linco\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2.1.vbproj.GenerateResource.cache
+C:\Users\linco\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2.1.vbproj.CopyComplete
+C:\Users\linco\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2.1.exe
+C:\Users\linco\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2.1.xml
+C:\Users\linco\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2.1.pdb
+D:\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\bin\Debug\Diseño2.1.exe.config
+D:\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\bin\Debug\Diseño2.1.exe
+D:\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\bin\Debug\Diseño2.1.pdb
+D:\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\bin\Debug\Diseño2.1.xml
+D:\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\bin\Debug\FontAwesome.Sharp.dll
+D:\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2.1.vbprojAssemblyReference.cache
+D:\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Interop.SAPbouiCOM.dll
+D:\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2.1.vbproj.ResolveComReference.cache
+D:\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.SeguimientoSAP.resources
+D:\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.Formularios.resources
+D:\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.Formulario_Produccion.resources
+D:\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.Login.resources
+D:\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.MantenedorUsuarios.resources
+D:\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.MenúPrincipal.resources
+D:\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.Resources.resources
+D:\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.Splash.resources
+D:\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.VentanaModal.resources
+D:\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.VentanaModal2.resources
+D:\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.VentanaSAP.resources
+D:\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2._1.VentanaSQL.resources
+D:\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2.1.vbproj.GenerateResource.cache
+D:\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2.1.vbproj.CopyComplete
+D:\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2.1.exe
+D:\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2.1.xml
+D:\Dropbox\PracticaSAP\Proyecto SAPito\SAPito\Diseño2.1\obj\Debug\Diseño2.1.pdb

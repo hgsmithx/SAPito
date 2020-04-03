@@ -1,6 +1,6 @@
 ﻿Imports System.Data.SqlClient
 Public Class VentanaSQL
-    Public cadena As String
+    Public Shared cadenasql As String
     Dim tipoConexion As ConnSQL = New ConnSQL
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'Carga los datos del servidor a los textBox
@@ -20,7 +20,7 @@ Public Class VentanaSQL
         Usuario = txtIdUsuario.Text
         Contraseña = txtContraseña.Text
         'cadena que almacena los datos de la conexion
-        cadena = tipoConexion.ObtenerCadena(Data, Puerto, NombreDB, Usuario, Contraseña) 'Envia datos a funcion de ConSQL
+        cadenasql = tipoConexion.ObtenerCadena(Data, Puerto, NombreDB, Usuario, Contraseña) 'Envia datos a funcion de ConSQL
         'MsgBox(cadena)
         'Funcion retorna un String
 
@@ -28,18 +28,20 @@ Public Class VentanaSQL
         'VentanaSAP.setCadenaSQL = cadena ' setea en el objeto de sap la cadena de SQL 
 
 
-        Dim conexion As New SqlConnection(cadena)
+        Dim conexion As New SqlConnection(cadenasql)
         Try
             conexion.Open()
             'MsgBox("Conexion exitosa", MsgBoxStyle.MsgBoxRight)
             conexion.Close()
-            VentanaSAP.setCadenaSQL = cadena
-            VentanaSAP.Show()
-            'Form_SAP.Show()
+            'VentanaSAP.setCadenaSQL = cadena
+            Login.cadenasql = cadenasql
+            VentanaSAP.Show() ' si se conecta a sql mediante la ventana, el siguiente paso es conectar a sap
+            'Login.Show()
             Me.Hide()
         Catch ex As Exception
             MsgBox("Error al conectar a SQL")
             conexion.Close()
+
         End Try
     End Sub
 

@@ -25,6 +25,7 @@ Partial Class MenúPrincipal
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MenúPrincipal))
         Me.PanelMenu = New System.Windows.Forms.Panel()
+        Me.bunibtn_Seguimiento = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.buniPanel_config = New Bunifu.Framework.UI.BunifuGradientPanel()
         Me.btn_buniParamSAP = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.btn_buniParamSQL = New Bunifu.Framework.UI.BunifuFlatButton()
@@ -34,7 +35,7 @@ Partial Class MenúPrincipal
         Me.buniPanel_produccion = New Bunifu.Framework.UI.BunifuGradientPanel()
         Me.BunifuFlatButton2 = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.BunifuFlatButton3 = New Bunifu.Framework.UI.BunifuFlatButton()
-        Me.BunifuFlatButton4 = New Bunifu.Framework.UI.BunifuFlatButton()
+        Me.btn_prodEMSM = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.bunifbtn_Produccion = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.bunifPanel_SolCompras = New Bunifu.Framework.UI.BunifuGradientPanel()
         Me.btn_pedido = New Bunifu.Framework.UI.BunifuFlatButton()
@@ -43,14 +44,14 @@ Partial Class MenúPrincipal
         Me.bunibtn_Compras = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.bunPanel_izqTop = New Bunifu.Framework.UI.BunifuGradientPanel()
         Me.Panel_top = New System.Windows.Forms.Panel()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.lblNomUsuario = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.btn_Maximizar = New Bunifu.Framework.UI.BunifuImageButton()
         Me.btn_Restaurar = New Bunifu.Framework.UI.BunifuImageButton()
         Me.btn_Salir = New Bunifu.Framework.UI.BunifuImageButton()
         Me.btn_Minimizar = New Bunifu.Framework.UI.BunifuImageButton()
-        Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panelcentrofondo = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panelcentro_encima = New System.Windows.Forms.Panel()
@@ -69,7 +70,6 @@ Partial Class MenúPrincipal
         CType(Me.btn_Restaurar, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btn_Salir, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btn_Minimizar, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel2.SuspendLayout()
         Me.Panelcentrofondo.SuspendLayout()
         Me.Panelcentro_encima.SuspendLayout()
         CType(Me.btn_hideMenu, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -81,6 +81,7 @@ Partial Class MenúPrincipal
         '
         Me.PanelMenu.AutoScroll = True
         Me.PanelMenu.BackColor = System.Drawing.Color.FromArgb(CType(CType(6, Byte), Integer), CType(CType(91, Byte), Integer), CType(CType(82, Byte), Integer))
+        Me.PanelMenu.Controls.Add(Me.bunibtn_Seguimiento)
         Me.PanelMenu.Controls.Add(Me.buniPanel_config)
         Me.PanelMenu.Controls.Add(Me.bunibtn_Config)
         Me.PanelMenu.Controls.Add(Me.bunibtn_Rendiciones)
@@ -94,6 +95,43 @@ Partial Class MenúPrincipal
         Me.PanelMenu.Name = "PanelMenu"
         Me.PanelMenu.Size = New System.Drawing.Size(214, 474)
         Me.PanelMenu.TabIndex = 2
+        '
+        'bunibtn_Seguimiento
+        '
+        Me.bunibtn_Seguimiento.Activecolor = System.Drawing.Color.FromArgb(CType(CType(7, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(98, Byte), Integer))
+        Me.bunibtn_Seguimiento.BackColor = System.Drawing.Color.FromArgb(CType(CType(6, Byte), Integer), CType(CType(91, Byte), Integer), CType(CType(82, Byte), Integer))
+        Me.bunibtn_Seguimiento.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.bunibtn_Seguimiento.BorderRadius = 0
+        Me.bunibtn_Seguimiento.ButtonText = "Seguimiento"
+        Me.bunibtn_Seguimiento.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.bunibtn_Seguimiento.DisabledColor = System.Drawing.Color.Gray
+        Me.bunibtn_Seguimiento.Dock = System.Windows.Forms.DockStyle.Top
+        Me.bunibtn_Seguimiento.ForeColor = System.Drawing.Color.LightGoldenrodYellow
+        Me.bunibtn_Seguimiento.Iconcolor = System.Drawing.Color.Transparent
+        Me.bunibtn_Seguimiento.Iconimage = CType(resources.GetObject("bunibtn_Seguimiento.Iconimage"), System.Drawing.Image)
+        Me.bunibtn_Seguimiento.Iconimage_right = Nothing
+        Me.bunibtn_Seguimiento.Iconimage_right_Selected = Nothing
+        Me.bunibtn_Seguimiento.Iconimage_Selected = Nothing
+        Me.bunibtn_Seguimiento.IconMarginLeft = 0
+        Me.bunibtn_Seguimiento.IconMarginRight = 0
+        Me.bunibtn_Seguimiento.IconRightVisible = True
+        Me.bunibtn_Seguimiento.IconRightZoom = 0R
+        Me.bunibtn_Seguimiento.IconVisible = True
+        Me.bunibtn_Seguimiento.IconZoom = 60.0R
+        Me.bunibtn_Seguimiento.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.bunibtn_Seguimiento.IsTab = False
+        Me.bunibtn_Seguimiento.Location = New System.Drawing.Point(0, 737)
+        Me.bunibtn_Seguimiento.Name = "bunibtn_Seguimiento"
+        Me.bunibtn_Seguimiento.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(6, Byte), Integer), CType(CType(91, Byte), Integer), CType(CType(82, Byte), Integer))
+        Me.bunibtn_Seguimiento.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(7, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(98, Byte), Integer))
+        Me.bunibtn_Seguimiento.OnHoverTextColor = System.Drawing.Color.LightGoldenrodYellow
+        Me.bunibtn_Seguimiento.selected = False
+        Me.bunibtn_Seguimiento.Size = New System.Drawing.Size(197, 60)
+        Me.bunibtn_Seguimiento.TabIndex = 19
+        Me.bunibtn_Seguimiento.Text = "Seguimiento"
+        Me.bunibtn_Seguimiento.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.bunibtn_Seguimiento.Textcolor = System.Drawing.Color.Snow
+        Me.bunibtn_Seguimiento.TextFont = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         '
         'buniPanel_config
         '
@@ -111,7 +149,7 @@ Partial Class MenúPrincipal
         Me.buniPanel_config.Location = New System.Drawing.Point(0, 581)
         Me.buniPanel_config.Name = "buniPanel_config"
         Me.buniPanel_config.Quality = 10
-        Me.buniPanel_config.Size = New System.Drawing.Size(197, 162)
+        Me.buniPanel_config.Size = New System.Drawing.Size(197, 156)
         Me.buniPanel_config.TabIndex = 17
         '
         'btn_buniParamSAP
@@ -135,7 +173,7 @@ Partial Class MenúPrincipal
         Me.btn_buniParamSAP.IconRightVisible = True
         Me.btn_buniParamSAP.IconRightZoom = 0R
         Me.btn_buniParamSAP.IconVisible = True
-        Me.btn_buniParamSAP.IconZoom = 15.0R
+        Me.btn_buniParamSAP.IconZoom = 30.0R
         Me.btn_buniParamSAP.IsTab = False
         Me.btn_buniParamSAP.Location = New System.Drawing.Point(0, 96)
         Me.btn_buniParamSAP.Name = "btn_buniParamSAP"
@@ -172,7 +210,7 @@ Partial Class MenúPrincipal
         Me.btn_buniParamSQL.IconRightVisible = True
         Me.btn_buniParamSQL.IconRightZoom = 0R
         Me.btn_buniParamSQL.IconVisible = True
-        Me.btn_buniParamSQL.IconZoom = 15.0R
+        Me.btn_buniParamSQL.IconZoom = 30.0R
         Me.btn_buniParamSQL.IsTab = False
         Me.btn_buniParamSQL.Location = New System.Drawing.Point(0, 48)
         Me.btn_buniParamSQL.Name = "btn_buniParamSQL"
@@ -209,7 +247,7 @@ Partial Class MenúPrincipal
         Me.btn_buniUsuarios.IconRightVisible = True
         Me.btn_buniUsuarios.IconRightZoom = 0R
         Me.btn_buniUsuarios.IconVisible = True
-        Me.btn_buniUsuarios.IconZoom = 15.0R
+        Me.btn_buniUsuarios.IconZoom = 30.0R
         Me.btn_buniUsuarios.IsTab = False
         Me.btn_buniUsuarios.Location = New System.Drawing.Point(0, 0)
         Me.btn_buniUsuarios.Name = "btn_buniUsuarios"
@@ -246,7 +284,7 @@ Partial Class MenúPrincipal
         Me.bunibtn_Config.IconRightVisible = True
         Me.bunibtn_Config.IconRightZoom = 0R
         Me.bunibtn_Config.IconVisible = True
-        Me.bunibtn_Config.IconZoom = 40.0R
+        Me.bunibtn_Config.IconZoom = 50.0R
         Me.bunibtn_Config.ImeMode = System.Windows.Forms.ImeMode.NoControl
         Me.bunibtn_Config.IsTab = False
         Me.bunibtn_Config.Location = New System.Drawing.Point(0, 521)
@@ -259,7 +297,7 @@ Partial Class MenúPrincipal
         Me.bunibtn_Config.TabIndex = 18
         Me.bunibtn_Config.Text = "Configuración"
         Me.bunibtn_Config.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.bunibtn_Config.Textcolor = System.Drawing.Color.LightGoldenrodYellow
+        Me.bunibtn_Config.Textcolor = System.Drawing.Color.Snow
         Me.bunibtn_Config.TextFont = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         '
         'bunibtn_Rendiciones
@@ -283,7 +321,7 @@ Partial Class MenúPrincipal
         Me.bunibtn_Rendiciones.IconRightVisible = True
         Me.bunibtn_Rendiciones.IconRightZoom = 0R
         Me.bunibtn_Rendiciones.IconVisible = True
-        Me.bunibtn_Rendiciones.IconZoom = 40.0R
+        Me.bunibtn_Rendiciones.IconZoom = 50.0R
         Me.bunibtn_Rendiciones.ImeMode = System.Windows.Forms.ImeMode.NoControl
         Me.bunibtn_Rendiciones.IsTab = False
         Me.bunibtn_Rendiciones.Location = New System.Drawing.Point(0, 461)
@@ -296,7 +334,7 @@ Partial Class MenúPrincipal
         Me.bunibtn_Rendiciones.TabIndex = 17
         Me.bunibtn_Rendiciones.Text = "Rendiciones"
         Me.bunibtn_Rendiciones.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.bunibtn_Rendiciones.Textcolor = System.Drawing.Color.LightGoldenrodYellow
+        Me.bunibtn_Rendiciones.Textcolor = System.Drawing.Color.Snow
         Me.bunibtn_Rendiciones.TextFont = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         '
         'buniPanel_produccion
@@ -306,7 +344,7 @@ Partial Class MenúPrincipal
         Me.buniPanel_produccion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.buniPanel_produccion.Controls.Add(Me.BunifuFlatButton2)
         Me.buniPanel_produccion.Controls.Add(Me.BunifuFlatButton3)
-        Me.buniPanel_produccion.Controls.Add(Me.BunifuFlatButton4)
+        Me.buniPanel_produccion.Controls.Add(Me.btn_prodEMSM)
         Me.buniPanel_produccion.Dock = System.Windows.Forms.DockStyle.Top
         Me.buniPanel_produccion.GradientBottomLeft = System.Drawing.Color.FromArgb(CType(CType(6, Byte), Integer), CType(CType(91, Byte), Integer), CType(CType(82, Byte), Integer))
         Me.buniPanel_produccion.GradientBottomRight = System.Drawing.Color.FromArgb(CType(CType(6, Byte), Integer), CType(CType(91, Byte), Integer), CType(CType(82, Byte), Integer))
@@ -339,7 +377,7 @@ Partial Class MenúPrincipal
         Me.BunifuFlatButton2.IconRightVisible = True
         Me.BunifuFlatButton2.IconRightZoom = 0R
         Me.BunifuFlatButton2.IconVisible = True
-        Me.BunifuFlatButton2.IconZoom = 15.0R
+        Me.BunifuFlatButton2.IconZoom = 30.0R
         Me.BunifuFlatButton2.IsTab = False
         Me.BunifuFlatButton2.Location = New System.Drawing.Point(0, 96)
         Me.BunifuFlatButton2.Name = "BunifuFlatButton2"
@@ -376,7 +414,7 @@ Partial Class MenúPrincipal
         Me.BunifuFlatButton3.IconRightVisible = True
         Me.BunifuFlatButton3.IconRightZoom = 0R
         Me.BunifuFlatButton3.IconVisible = True
-        Me.BunifuFlatButton3.IconZoom = 15.0R
+        Me.BunifuFlatButton3.IconZoom = 30.0R
         Me.BunifuFlatButton3.IsTab = False
         Me.BunifuFlatButton3.Location = New System.Drawing.Point(0, 48)
         Me.BunifuFlatButton3.Name = "BunifuFlatButton3"
@@ -392,42 +430,42 @@ Partial Class MenúPrincipal
         Me.BunifuFlatButton3.Textcolor = System.Drawing.Color.FromArgb(CType(CType(228, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(245, Byte), Integer))
         Me.BunifuFlatButton3.TextFont = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         '
-        'BunifuFlatButton4
+        'btn_prodEMSM
         '
-        Me.BunifuFlatButton4.Activecolor = System.Drawing.Color.FromArgb(CType(CType(123, Byte), Integer), CType(CType(198, Byte), Integer), CType(CType(167, Byte), Integer))
-        Me.BunifuFlatButton4.BackColor = System.Drawing.Color.FromArgb(CType(CType(7, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(98, Byte), Integer))
-        Me.BunifuFlatButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.BunifuFlatButton4.BorderRadius = 0
-        Me.BunifuFlatButton4.ButtonText = "Produccion 1"
-        Me.BunifuFlatButton4.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuFlatButton4.DisabledColor = System.Drawing.Color.FromArgb(CType(CType(149, Byte), Integer), CType(CType(225, Byte), Integer), CType(CType(211, Byte), Integer))
-        Me.BunifuFlatButton4.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BunifuFlatButton4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(81, Byte), Integer), CType(CType(78, Byte), Integer))
-        Me.BunifuFlatButton4.Iconcolor = System.Drawing.Color.Transparent
-        Me.BunifuFlatButton4.Iconimage = CType(resources.GetObject("BunifuFlatButton4.Iconimage"), System.Drawing.Image)
-        Me.BunifuFlatButton4.Iconimage_right = Nothing
-        Me.BunifuFlatButton4.Iconimage_right_Selected = Nothing
-        Me.BunifuFlatButton4.Iconimage_Selected = Nothing
-        Me.BunifuFlatButton4.IconMarginLeft = 0
-        Me.BunifuFlatButton4.IconMarginRight = 0
-        Me.BunifuFlatButton4.IconRightVisible = True
-        Me.BunifuFlatButton4.IconRightZoom = 0R
-        Me.BunifuFlatButton4.IconVisible = True
-        Me.BunifuFlatButton4.IconZoom = 15.0R
-        Me.BunifuFlatButton4.IsTab = False
-        Me.BunifuFlatButton4.Location = New System.Drawing.Point(0, 0)
-        Me.BunifuFlatButton4.Name = "BunifuFlatButton4"
-        Me.BunifuFlatButton4.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(7, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(98, Byte), Integer))
-        Me.BunifuFlatButton4.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(67, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(120, Byte), Integer))
-        Me.BunifuFlatButton4.OnHoverTextColor = System.Drawing.Color.FromArgb(CType(CType(228, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.BunifuFlatButton4.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
-        Me.BunifuFlatButton4.selected = False
-        Me.BunifuFlatButton4.Size = New System.Drawing.Size(197, 48)
-        Me.BunifuFlatButton4.TabIndex = 4
-        Me.BunifuFlatButton4.Text = "Produccion 1"
-        Me.BunifuFlatButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.BunifuFlatButton4.Textcolor = System.Drawing.Color.FromArgb(CType(CType(228, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.BunifuFlatButton4.TextFont = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_prodEMSM.Activecolor = System.Drawing.Color.FromArgb(CType(CType(123, Byte), Integer), CType(CType(198, Byte), Integer), CType(CType(167, Byte), Integer))
+        Me.btn_prodEMSM.BackColor = System.Drawing.Color.FromArgb(CType(CType(7, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(98, Byte), Integer))
+        Me.btn_prodEMSM.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_prodEMSM.BorderRadius = 0
+        Me.btn_prodEMSM.ButtonText = "Entrada y salida de mercancia"
+        Me.btn_prodEMSM.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btn_prodEMSM.DisabledColor = System.Drawing.Color.FromArgb(CType(CType(149, Byte), Integer), CType(CType(225, Byte), Integer), CType(CType(211, Byte), Integer))
+        Me.btn_prodEMSM.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btn_prodEMSM.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(81, Byte), Integer), CType(CType(78, Byte), Integer))
+        Me.btn_prodEMSM.Iconcolor = System.Drawing.Color.Transparent
+        Me.btn_prodEMSM.Iconimage = CType(resources.GetObject("btn_prodEMSM.Iconimage"), System.Drawing.Image)
+        Me.btn_prodEMSM.Iconimage_right = Nothing
+        Me.btn_prodEMSM.Iconimage_right_Selected = Nothing
+        Me.btn_prodEMSM.Iconimage_Selected = Nothing
+        Me.btn_prodEMSM.IconMarginLeft = 0
+        Me.btn_prodEMSM.IconMarginRight = 0
+        Me.btn_prodEMSM.IconRightVisible = True
+        Me.btn_prodEMSM.IconRightZoom = 0R
+        Me.btn_prodEMSM.IconVisible = True
+        Me.btn_prodEMSM.IconZoom = 30.0R
+        Me.btn_prodEMSM.IsTab = False
+        Me.btn_prodEMSM.Location = New System.Drawing.Point(0, 0)
+        Me.btn_prodEMSM.Name = "btn_prodEMSM"
+        Me.btn_prodEMSM.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(7, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(98, Byte), Integer))
+        Me.btn_prodEMSM.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(67, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(120, Byte), Integer))
+        Me.btn_prodEMSM.OnHoverTextColor = System.Drawing.Color.FromArgb(CType(CType(228, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(245, Byte), Integer))
+        Me.btn_prodEMSM.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
+        Me.btn_prodEMSM.selected = False
+        Me.btn_prodEMSM.Size = New System.Drawing.Size(197, 48)
+        Me.btn_prodEMSM.TabIndex = 4
+        Me.btn_prodEMSM.Text = "Entrada y salida de mercancia"
+        Me.btn_prodEMSM.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btn_prodEMSM.Textcolor = System.Drawing.Color.FromArgb(CType(CType(228, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(245, Byte), Integer))
+        Me.btn_prodEMSM.TextFont = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         '
         'bunifbtn_Produccion
         '
@@ -450,7 +488,7 @@ Partial Class MenúPrincipal
         Me.bunifbtn_Produccion.IconRightVisible = True
         Me.bunifbtn_Produccion.IconRightZoom = 0R
         Me.bunifbtn_Produccion.IconVisible = True
-        Me.bunifbtn_Produccion.IconZoom = 40.0R
+        Me.bunifbtn_Produccion.IconZoom = 50.0R
         Me.bunifbtn_Produccion.ImeMode = System.Windows.Forms.ImeMode.NoControl
         Me.bunifbtn_Produccion.IsTab = False
         Me.bunifbtn_Produccion.Location = New System.Drawing.Point(0, 249)
@@ -463,7 +501,7 @@ Partial Class MenúPrincipal
         Me.bunifbtn_Produccion.TabIndex = 15
         Me.bunifbtn_Produccion.Text = "Producción"
         Me.bunifbtn_Produccion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.bunifbtn_Produccion.Textcolor = System.Drawing.Color.LightGoldenrodYellow
+        Me.bunifbtn_Produccion.Textcolor = System.Drawing.Color.Snow
         Me.bunifbtn_Produccion.TextFont = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         '
         'bunifPanel_SolCompras
@@ -506,7 +544,7 @@ Partial Class MenúPrincipal
         Me.btn_pedido.IconRightVisible = True
         Me.btn_pedido.IconRightZoom = 0R
         Me.btn_pedido.IconVisible = True
-        Me.btn_pedido.IconZoom = 15.0R
+        Me.btn_pedido.IconZoom = 30.0R
         Me.btn_pedido.IsTab = False
         Me.btn_pedido.Location = New System.Drawing.Point(0, 96)
         Me.btn_pedido.Name = "btn_pedido"
@@ -543,7 +581,7 @@ Partial Class MenúPrincipal
         Me.btn_ofertaCompra.IconRightVisible = True
         Me.btn_ofertaCompra.IconRightZoom = 0R
         Me.btn_ofertaCompra.IconVisible = True
-        Me.btn_ofertaCompra.IconZoom = 15.0R
+        Me.btn_ofertaCompra.IconZoom = 30.0R
         Me.btn_ofertaCompra.IsTab = False
         Me.btn_ofertaCompra.Location = New System.Drawing.Point(0, 48)
         Me.btn_ofertaCompra.Name = "btn_ofertaCompra"
@@ -580,7 +618,7 @@ Partial Class MenúPrincipal
         Me.btn_solCompra.IconRightVisible = True
         Me.btn_solCompra.IconRightZoom = 0R
         Me.btn_solCompra.IconVisible = True
-        Me.btn_solCompra.IconZoom = 15.0R
+        Me.btn_solCompra.IconZoom = 30.0R
         Me.btn_solCompra.IsTab = False
         Me.btn_solCompra.Location = New System.Drawing.Point(0, 0)
         Me.btn_solCompra.Name = "btn_solCompra"
@@ -617,7 +655,7 @@ Partial Class MenúPrincipal
         Me.bunibtn_Compras.IconRightVisible = True
         Me.bunibtn_Compras.IconRightZoom = 0R
         Me.bunibtn_Compras.IconVisible = True
-        Me.bunibtn_Compras.IconZoom = 70.0R
+        Me.bunibtn_Compras.IconZoom = 60.0R
         Me.bunibtn_Compras.ImeMode = System.Windows.Forms.ImeMode.NoControl
         Me.bunibtn_Compras.IsTab = False
         Me.bunibtn_Compras.Location = New System.Drawing.Point(0, 37)
@@ -630,7 +668,7 @@ Partial Class MenúPrincipal
         Me.bunibtn_Compras.TabIndex = 13
         Me.bunibtn_Compras.Text = "Compras"
         Me.bunibtn_Compras.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.bunibtn_Compras.Textcolor = System.Drawing.Color.LightGoldenrodYellow
+        Me.bunibtn_Compras.Textcolor = System.Drawing.Color.Snow
         Me.bunibtn_Compras.TextFont = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         '
         'bunPanel_izqTop
@@ -652,6 +690,7 @@ Partial Class MenúPrincipal
         'Panel_top
         '
         Me.Panel_top.BackColor = System.Drawing.Color.FromArgb(CType(CType(6, Byte), Integer), CType(CType(91, Byte), Integer), CType(CType(82, Byte), Integer))
+        Me.Panel_top.Controls.Add(Me.Label3)
         Me.Panel_top.Controls.Add(Me.lblNomUsuario)
         Me.Panel_top.Controls.Add(Me.Label2)
         Me.Panel_top.Controls.Add(Me.PictureBox2)
@@ -665,34 +704,50 @@ Partial Class MenúPrincipal
         Me.Panel_top.Size = New System.Drawing.Size(939, 33)
         Me.Panel_top.TabIndex = 3
         '
-        'Label2
+        'Label3
         '
-        Me.Label2.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label2.Location = New System.Drawing.Point(478, 9)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(97, 20)
-        Me.Label2.TabIndex = 75
-        Me.Label2.Text = "Bienvenido"
+        Me.Label3.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label3.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.Label3.Location = New System.Drawing.Point(583, 9)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(149, 19)
+        Me.Label3.TabIndex = 76
+        Me.Label3.Text = "al menú principal"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'lblNomUsuario
         '
         Me.lblNomUsuario.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.lblNomUsuario.AutoSize = True
-        Me.lblNomUsuario.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblNomUsuario.ForeColor = System.Drawing.Color.White
-        Me.lblNomUsuario.Location = New System.Drawing.Point(569, 9)
+        Me.lblNomUsuario.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblNomUsuario.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.lblNomUsuario.Location = New System.Drawing.Point(516, 9)
         Me.lblNomUsuario.Name = "lblNomUsuario"
-        Me.lblNomUsuario.Size = New System.Drawing.Size(63, 20)
+        Me.lblNomUsuario.Size = New System.Drawing.Size(63, 19)
         Me.lblNomUsuario.TabIndex = 74
         Me.lblNomUsuario.Text = "Label2"
+        Me.lblNomUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label2
+        '
+        Me.Label2.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label2.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.Label2.Location = New System.Drawing.Point(395, 9)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(118, 19)
+        Me.Label2.TabIndex = 75
+        Me.Label2.Text = "Bienvenido/a"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'PictureBox2
         '
+        Me.PictureBox2.Dock = System.Windows.Forms.DockStyle.Left
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(3, 0)
+        Me.PictureBox2.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(47, 33)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -756,22 +811,13 @@ Partial Class MenúPrincipal
         Me.btn_Minimizar.TabStop = False
         Me.btn_Minimizar.Zoom = 10
         '
-        'Panel2
-        '
-        Me.Panel2.Controls.Add(Me.Panelcentrofondo)
-        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel2.Location = New System.Drawing.Point(214, 70)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(725, 437)
-        Me.Panel2.TabIndex = 6
-        '
         'Panelcentrofondo
         '
         Me.Panelcentrofondo.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(236, Byte), Integer), CType(CType(201, Byte), Integer))
         Me.Panelcentrofondo.Controls.Add(Me.Label1)
         Me.Panelcentrofondo.Controls.Add(Me.Panelcentro_encima)
         Me.Panelcentrofondo.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panelcentrofondo.Location = New System.Drawing.Point(0, 0)
+        Me.Panelcentrofondo.Location = New System.Drawing.Point(214, 70)
         Me.Panelcentrofondo.Name = "Panelcentrofondo"
         Me.Panelcentrofondo.Padding = New System.Windows.Forms.Padding(20)
         Me.Panelcentrofondo.Size = New System.Drawing.Size(725, 437)
@@ -817,7 +863,7 @@ Partial Class MenúPrincipal
         '
         Me.PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(204, 129)
+        Me.PictureBox1.Location = New System.Drawing.Point(232, 117)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(261, 145)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -862,11 +908,12 @@ Partial Class MenúPrincipal
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(939, 507)
-        Me.Controls.Add(Me.Panel2)
+        Me.Controls.Add(Me.Panelcentrofondo)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.PanelMenu)
         Me.Controls.Add(Me.Panel_top)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "MenúPrincipal"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "MenúPrincipal"
@@ -881,7 +928,6 @@ Partial Class MenúPrincipal
         CType(Me.btn_Restaurar, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btn_Salir, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btn_Minimizar, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel2.ResumeLayout(False)
         Me.Panelcentrofondo.ResumeLayout(False)
         Me.Panelcentrofondo.PerformLayout()
         Me.Panelcentro_encima.ResumeLayout(False)
@@ -897,7 +943,6 @@ Partial Class MenúPrincipal
     Friend WithEvents btn_Maximizar As Bunifu.Framework.UI.BunifuImageButton
     Friend WithEvents btn_Restaurar As Bunifu.Framework.UI.BunifuImageButton
     Friend WithEvents btn_Minimizar As Bunifu.Framework.UI.BunifuImageButton
-    Friend WithEvents Panel2 As Panel
     Friend WithEvents bunibtn_Compras As Bunifu.Framework.UI.BunifuFlatButton
     Friend WithEvents bunPanel_izqTop As Bunifu.Framework.UI.BunifuGradientPanel
     Friend WithEvents Panelcentrofondo As Panel
@@ -912,7 +957,7 @@ Partial Class MenúPrincipal
     Friend WithEvents buniPanel_produccion As Bunifu.Framework.UI.BunifuGradientPanel
     Friend WithEvents BunifuFlatButton2 As Bunifu.Framework.UI.BunifuFlatButton
     Friend WithEvents BunifuFlatButton3 As Bunifu.Framework.UI.BunifuFlatButton
-    Friend WithEvents BunifuFlatButton4 As Bunifu.Framework.UI.BunifuFlatButton
+    Friend WithEvents btn_prodEMSM As Bunifu.Framework.UI.BunifuFlatButton
     Friend WithEvents bunibtn_Config As Bunifu.Framework.UI.BunifuFlatButton
     Friend WithEvents bunibtn_Rendiciones As Bunifu.Framework.UI.BunifuFlatButton
     Friend WithEvents Movimiento_cabecera As Bunifu.Framework.UI.BunifuDragControl
@@ -926,4 +971,6 @@ Partial Class MenúPrincipal
     Friend WithEvents Label1 As Label
     Friend WithEvents lblNomUsuario As Label
     Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents bunibtn_Seguimiento As Bunifu.Framework.UI.BunifuFlatButton
 End Class

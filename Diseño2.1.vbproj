@@ -86,13 +86,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cadenas.vb" />
+    <Compile Include="ComprobarConexion.vb" />
     <Compile Include="ConnSAP.vb" />
     <Compile Include="ConnSQL.vb" />
-    <Compile Include="DatosSAP.vb" />
+    <Compile Include="Seguimiento SAP.Designer.vb">
+      <DependentUpon>Seguimiento SAP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguimiento SAP.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Formularios.Designer.vb">
       <DependentUpon>Formularios.vb</DependentUpon>
     </Compile>
     <Compile Include="Formularios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario_Produccion.Designer.vb">
+      <DependentUpon>Formulario_Produccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario_Produccion.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.Designer.vb">
@@ -128,7 +140,24 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="StaticSAP.vb" />
+    <Compile Include="Splash.Designer.vb">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaModal.Designer.vb">
+      <DependentUpon>VentanaModal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaModal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaModal2.Designer.vb">
+      <DependentUpon>VentanaModal2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaModal2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="VentanaSAP.Designer.vb">
       <DependentUpon>VentanaSAP.vb</DependentUpon>
     </Compile>
@@ -143,8 +172,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Seguimiento SAP.resx">
+      <DependentUpon>Seguimiento SAP.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios.resx">
       <DependentUpon>Formularios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario_Produccion.resx">
+      <DependentUpon>Formulario_Produccion.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
@@ -160,6 +195,15 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaModal.resx">
+      <DependentUpon>VentanaModal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaModal2.resx">
+      <DependentUpon>VentanaModal2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VentanaSAP.resx">
       <DependentUpon>VentanaSAP.vb</DependentUpon>

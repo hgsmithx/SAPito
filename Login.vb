@@ -2,11 +2,11 @@
 Imports System.Data
 
 Public Class Login
-    Dim sql, cadena As String
+    Shared sql, cadena As String
     Dim lector As SqlDataReader 'data reader lee'
-    Dim tipoconexion As Cadenas = New Cadenas()
-    Public cadenasql As String
-    Dim miEmpresa As SAPbobsCOM.Company
+    'Dim tipoconexion As Cadenas = New Cadenas()
+    Public Shared cadenasql As String
+    'Dim miEmpresa As SAPbobsCOM.Company
 
     Private Sub btn_salir_Click(sender As Object, e As EventArgs) Handles btn_salir.Click
         Application.Exit()
@@ -14,17 +14,15 @@ Public Class Login
 
     Private Sub btn_ingresar_Click(sender As Object, e As EventArgs) Handles btn_ingresar.Click
 
-
+        'cadenasql = VentanaSQL.cadena
+        'MsgBox(cadenasql)
         sql = "SELECT idUsuario,Nombre FROM Usuarios" &
               " WHERE(idUsuario =@codigo And Password=@pass) "
-        'sql = "INSERT INTO Usuarios (idUsuario,Password) VALUES " &    'estos dos no se pueden mezclar en  este mismo momento
-        '     " (@codigo,@pass)"
-        'cadena = tipoconexion.EscogeConexion()
 
-        Dim conexion As New SqlConnection(cadenasql)
+        Dim conexion As New SqlConnection(cadenasql) 'cadena recivida en la primera verificacion 
         Dim comando As New SqlCommand(sql, conexion)
 
-        comando.Parameters.Add("@codigo", SqlDbType.NChar).Value = txtUsuario.text
+        comando.Parameters.Add("@codigo", SqlDbType.NChar).Value = txtUsuario_fondo.text
         comando.Parameters.Add("@pass", SqlDbType.NChar).Value = txtPass.text
 
         Try
@@ -37,9 +35,8 @@ Public Class Login
                 MenúPrincipal.nombreUsuario = lector(1).ToString
                 'lblnombre.text=lector(0)+""+lector(1)
                 conexion.Close()
-                'Login debe recibir la cadena sql y enviarla al menu
-                MenúPrincipal.getCadenaSQL = cadenasql
                 MenúPrincipal.Show()
+                Me.Hide()
             Else
                 MsgBox("Usuario o contraseña incorrectos", MsgBoxStyle.Critical)
                 conexion.Close()
@@ -53,32 +50,34 @@ Public Class Login
 
 
     End Sub
-    Public Property setCadenaSQL()
-        Get
-            Return cadenasql
-        End Get
-        Set(value)
-            cadenasql = value
-        End Set
-    End Property
 
-    Public Property setObjectSAP()
-        Get
+    Private Sub txtPass_OnTextChange(sender As Object, e As EventArgs) Handles txtPass.OnTextChange
 
-        End Get
-        Set(value)
+    End Sub
 
-        End Set
-    End Property
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs)
+
+    End Sub
 
 
-    Public Function objectSAP(objeto As SAPbobsCOM.Company)
+    Private Sub Login_Load(sender As Object, e As EventArgs) Handles Me.Load
 
-        miEmpresa = objeto
-        ' miEmpresa.Connect()
-        'If miEmpresa.Connect = 0 Then
-        'MsgBox("conectado")
-        ' End If
+    End Sub
+    'Public Property setCadenaSQL()
+    '    Get
+    '        Return cadenasql
+    '    End Get
+    '    Set(value)
+    '        cadenasql = value
+    '    End Set
+    'End Property
 
-    End Function
+    'Public Property setObjectSAP()
+    '    Get
+
+    '    End Get
+    '    Set(value)
+
+    '    End Set
+    'End Property
 End Class

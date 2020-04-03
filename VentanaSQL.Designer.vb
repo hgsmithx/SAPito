@@ -138,9 +138,9 @@ Partial Class VentanaSQL
         Me.btnSalir.ForeColor = System.Drawing.Color.SeaGreen
         Me.btnSalir.IdleBorderThickness = 1
         Me.btnSalir.IdleCornerRadius = 20
-        Me.btnSalir.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(149, Byte), Integer), CType(CType(117, Byte), Integer))
+        Me.btnSalir.IdleFillColor = System.Drawing.Color.DarkGray
         Me.btnSalir.IdleForecolor = System.Drawing.SystemColors.Window
-        Me.btnSalir.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(149, Byte), Integer), CType(CType(117, Byte), Integer))
+        Me.btnSalir.IdleLineColor = System.Drawing.Color.DarkGray
         Me.btnSalir.Location = New System.Drawing.Point(263, 325)
         Me.btnSalir.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btnSalir.Name = "btnSalir"
@@ -442,6 +442,7 @@ Partial Class VentanaSQL
         Me.Controls.Add(Me.BunifuGradientPanel1)
         Me.Controls.Add(Me.Panel_header)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "VentanaSQL"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "VentanaSQL"

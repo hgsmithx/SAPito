@@ -1,7 +1,7 @@
 ﻿Public Class VentanaSAP
     Dim cadenaSQL, cadenaSAP As String
     Dim SAP As ConnSAP = New ConnSAP
-    Dim DBServerType, DBUserName, DbPassword, Sv, LServer, CompanyDB, UserN, UserPass As String
+    Public Shared DBServerType, DBUserName, DbPassword, Sv, LServer, CompanyDB, UserN, UserPass As String
 
 
 
@@ -23,10 +23,10 @@
 
         If cadenaSAP = 0 Then
             Dim login As New Login
-            login.setCadenaSQL = cadenaSQL
-            login.Show()
-            Me.Hide()
+            'login.setCadenaSQL = cadenaSQL
 
+            Me.Hide()
+            login.Show()
         End If
     End Sub
 
@@ -41,14 +41,14 @@
         txtPassword.Text = "1234"
     End Sub
 
-    Public Property setCadenaSQL() As String
-        Get
-            Return Me.cadenaSQL
-        End Get
-        Set(value As String)
-            Me.cadenaSQL = value
-        End Set
-    End Property
+    'Public Property setCadenaSQL() As String
+    '    Get
+    '        Return Me.cadenaSQL
+    '    End Get
+    '    Set(value As String)
+    '        Me.cadenaSQL = value
+    '    End Set
+    'End Property
     Private Sub btn_buniExit_Click(sender As Object, e As EventArgs) Handles btn_buniExit.Click
         Me.Close()
     End Sub
